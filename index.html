@@ -26,7 +26,7 @@
   <body>
     <header>
       <!--Main text-->
-      <section class="container text-center text-uppercase">
+      <main class="container text-center text-uppercase text-container">
         <div class="row no-gutters">
           <div class="col-sm">
             <h2 class="main-text">
@@ -53,7 +53,15 @@
                 class="mx-auto img-fluid"
                 id="map"
               />
-              <i class="fa fa-map-marker" aria-hidden="true" id="marker"></i>
+              <i class="fa fa-map-marker" aria-hidden="true" id="marker">
+                <div id="my-address">
+                  1 Ribblesdale Road
+                  <br />
+                  London
+                  <br />
+                  SW16 6SF
+                </div>
+              </i>
             </div>
           </div>
         </div>
@@ -77,47 +85,45 @@
             </ul>
           </div>
         </div>
-      </section>
+      </main>
     </header>
 
     <!--Footer Section-->
-    <footer>
-      <section class="container text-center">
-        <div class="row no-gutters">
-          <div class="col">
-            <ul class="list-inline social-links">
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.facebook.com/lucyjpjones/">
-                  <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  target="_blank"
-                  href="https://www.instagram.com/lucyjpj/?hl=en"
-                >
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/lucy-jones-1304/"
-                >
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                  <span class="sr-only">Linkedin</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+    <footer class="container-fluid text-center">
+      <div class="row">
+        <div class="col">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.facebook.com/lucyjpjones/">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/lucyjpj/?hl=en"
+              >
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/lucy-jones-1304/"
+              >
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">Linkedin</span>
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="row no-gutters">
-          <div class="col">
-            <h6>Copyright © 2020 Lucy J P Jones</h6>
-          </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col">
+          <h6><small>Copyright © 2020 Lucy J P Jones</small></h6>
         </div>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
