@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700|Bad+Script:300");
+
+html,
+body {
+    height: 100%;
+    position: relative;
+
+    font-family: "Montserrat", sans-serif;
+    background: #fafafa;
+    color: #585858;
+}
+
+.main-container {
+ min-height: 100%;
+ overflow: hidden;
+ display: block;
+ position: relative;
+ margin: 0;
+}
+
+/*----------Main text*/
+
+.text-container {
+    min-height: 95%;
+    padding-top: 40%;
+    padding-left: 10%;
+    padding-bottom: 20%;
+    padding-right: 10%;
+}
+
+@media (min-width: 576px) {
+    .text-container {
+        padding: 20% 10% 15% 10%;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-container {
+        padding: 15% 10% 10% 10%;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-container {
+        padding: 10% 10% 5% 10%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-container {
+        padding: 7% 10% 5% 10%;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.main-text{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#my-name {
+    color: rgba(87, 40, 90, 0.6);
+    font-size: 26px;
+    font-weight: 400;
+}
+
+/*----------Main images*/
+
+.image-container {
+    position: relative;
+}
+
+#skyline {
+    width: 100%;
+    height: auto;
+}
+#map {
+    width: 60%;
+    height: auto;
+
+    left: 50%;
+    top: 64%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+@media (min-width: 768px) {
+    #map {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    #map {
+        width: 40%;
+        height: auto;
+    }
+}
+
+/*----------Marker*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+#marker {
+    left: 49%;
+    top: 55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+    color: rgba(87, 40, 90, 0.8);
+}
+
+#marker:hover {
+    font-size: 130%;
+}
+
+
+/*----------Main menu*/
+
+#nav {
+    margin-top: 3rem;
+}
+
+@media (min-width: 992px) {
+    #nav {
+    margin-top: 2rem;
+    }
+}
+
+#nav li {
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    #nav li {
+        width: auto;
+        padding: 15px;
+    }
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #585858;
+}
+
+#nav li a:hover, #nav li a.active {
+    padding: 7px;
+    background: #fafafa;
+    box-shadow: 0 0 0 1px rgba(87, 40, 90, 0.6);
+    border-radius: 70%;
+    font-size: 12px;
+    text-align: center;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: none;
+}
+
+/*----------Footer*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    background-color: rgba(87, 40, 90, 0.1);
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links li a i {
+    width: 24px;
+    height: 24px;
+    padding: 6px 0;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+    
+.social-links li a i:hover {
+  background: rgba(87, 40, 90, 0.5);
+}
+
+/*----------Contact form*/
+
+#contact-body {
+    height: 143vh;
+}
+
+@media (min-width: 576px) {
+    #contact-body {
+    height: 170vh;
+    }
+}
+
+@media (min-width: 992px) {
+    #contact-body {
+    height: 174vh;
+    }
+}
+
+@media (min-width: 1140px) {
+    #contact-body {
+    height: 187vh;
+    }
+}
+
+#text-container-content { /*put form higher up*/
+    padding-bottom: 5%;
+}
+
+
+.center-form {
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+@media (min-width: 576px) {
+    .center-form {
+    max-width: 60%;
+    }
+}
+
+@media (min-width: 768px) {
+    .center-form {
+    max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .center-form {
+    max-width: 40%;
+    }
+}
+
+label {
+    margin-bottom: 0;
+    margin-top: .5rem;
+    color: #585858;
+    font-size: 10px;
+}
+
+.form-row {
+    padding-top: 0.8rem;
+}
+
+button[type="submit"] {
+    color: #fafafa;
+    background-color: #8f8f8f;
+    font-size: 14px;
+
+}
+
+button[type="submit"]:hover:active {
+    background: rgba(87, 40, 90, 0.5);
+}
+
+/*----------My work*/
+
+#work-body {
+    height: 110vh;
+}
+
+@media (min-width: 576px) {
+    #work-body {
+    height: 160vh;
+    }
+}
+
+@media (min-width: 992px) {
+    #work-body {
+    height: 180vh;
+    }
+}
+
+@media (min-width: 1140px) {
+    #work-body {
+    height: 195vh;
+    }
+}
+
+.carousel-inner {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.carousel-control-next span, .carousel-control-prev span {
+    font-size: 1.5em;
+    color: #585858;
+}
+
+.img-overlay {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.overlay-text{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+    .overlay-text{
+    top: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .overlay-text{
+    top: 75%;
+    }
+}
+
+@media (min-width: 992px) {
+    .overlay-text{
+    top: 80%;
+    }
+}
+
+.carousel-item:hover .img-overlay {
+  opacity: .8;
+}
+
+.carousel-item:hover .overlay-text {
+  opacity: 1;
+}
+
+.overlay-text p {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.btn-primary {
+    background-color: #fafafa;
+    border-color: rgba(87, 40, 90, 0.5);
+    border-width: thin;
+    font-size: 8px;
+    color: #585858;
+    padding: 2px 5px;
+}
+
+.btn-primary:hover {
+    background-color: #f1f0f0;
+    border-color: rgba(87, 40, 90, 0.5);
+}
