@@ -1,39 +1,44 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome Lucyjpjones,
+# Milestone-one
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+### <u>My Resume</u>
 
-## Gitpod Reminders
+My resume is a custom site built to present my skills, completed projects, education and previous work experience to potential employers.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+---
+### <u>UX</u>
 
-`python3 -m http.server`
+The purpose of this project is to create an online presence for myself whilst developing my experience using HTML and CSS frameworks. My main goal involves getting myself noticed, building a network, increasing my client base and increases chances of getting hired.
 
-A blue button should appear to click: *Make Public*,
+The online resume will aim to give users proof of my ability.
 
-Another blue button should appear to click: *Open Browser*.
+---
+### <u>Features</u>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Nav links** - <i>Navigation menu to allow user to easily access different pages of site. Also a nav tag icon link to allow user to easily go back to homepage</i>
 
-A blue button should appear to click: *Make Public*,
+**Form** - <i>A contact form with submit button for users to easily get in touch via website</i>
 
-Another blue button should appear to click: *Open Browser*.
+**Timeline** - <i>A timeline for education and work history to allow user to easily follow story</i>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+**PDF Download** - <i>A PDF download link for CV to allow user to access hard copy</i>
 
-## Updates Since The Instructional Video
+**External links to social platforms** - <i>Recognisable icons to allow user to visit external social platforms</i>
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+**Progress bars** - <i>Format skills using progress bars to show capabilities</i>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### <u>Visuals</u>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### <u>Technologies used</u>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### <u>Testing</u>
 
---------
 
-Happy coding!
+### <u>Deployment</u>
+
+### <u>Credits</u>
+#### Content
+#### Media
+#### Acknowledgements

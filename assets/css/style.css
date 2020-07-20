@@ -420,7 +420,7 @@ footer {
 
 @media (min-width: 576px) {
     #work-body {
-    height: 135vh;
+    height: 160vh;
     }
     .carousel-inner {
         width: 60%
@@ -432,7 +432,7 @@ footer {
 
 @media (min-width: 768px) {
     #work-body {
-    height: 140vh;
+    height: 155vh;
     }
     .carousel-inner {
         width: 50%
@@ -468,7 +468,7 @@ footer {
 
 @media (min-width: 1140px) {
     #work-body {
-    height: 155vh;
+    height: 145vh;
     }
     .carousel-inner {
       width: 30%
