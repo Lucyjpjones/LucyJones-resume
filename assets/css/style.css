@@ -24,6 +24,8 @@ body {
 
 .header-container {
   padding: 40% 10% 0 10%;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /*--Main header text--*/
@@ -31,7 +33,7 @@ body {
 .header-container h2 {
   font-size: 18px;
   font-weight: 300;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5em;
 }
 
 #my-name {
@@ -41,6 +43,10 @@ body {
 }
 
 /*--Main header images & marker--*/
+
+#london-skyline {
+    filter: opacity(0.7);
+}
 
 #map {
   width: 60%;
@@ -63,8 +69,14 @@ body {
 
 /*--Main nav menu--*/
 
+.list-inline-item:not(:last-child) {
+    margin: 0 auto;
+    padding-right: 2%;
+}
 .nav {
   margin-top: 3.5em;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .nav li a {
   text-decoration: none;
@@ -90,6 +102,7 @@ footer {
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
+
 .social-links li a i {
   width: 24px;
   border-radius: 50%;
@@ -137,10 +150,11 @@ footer {
 #contact-details {
   border: 1px dashed rgba(87, 40, 90, 0.5);
   font-weight: 400;
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
   margin-bottom: 1em;
   border-radius: 5px;
+  padding: 2% 0;
 }
 
 #contact-details i {
@@ -298,7 +312,7 @@ footer {
 /*---------------------------------Contact---*/
 
 #contact-body {
-  height: 155vh;
+  height: 158vh;
 }
 
 .contact-text-bg {
@@ -358,216 +372,42 @@ button[type="submit"]:hover {
   background: rgba(87, 40, 90, 0.5);
 }
 
-/*---------------------------------Responsive Design---*/
-
-/*--homepage--*/
+/*---------------------------------Media Queries---*/
 
 @media (min-width: 576px) {
-  .header-container {
-    padding-top: 10%;
-  }
-  .nav {
-    margin-top: 7em;
-  }
-}
-@media (min-width: 768px) {
-  .header-container {
-    padding-top: 8%;
-  }
-  .nav {
-    margin-top: 6em;
-  }
-}
-@media (min-width: 992px) {
-  .header-container {
-    padding-top: 6%;
-  }
-  .nav {
-    margin-top: 6rem;
-  }
-}
-@media (min-width: 1200px) {
-  .header-container {
-    padding-top: 4%;
-  }
-  .nav {
-    margin-top: 7rem;
-  }
+    .header-container {
+        padding-top: 10%;
+    }
+    .nav {
+        margin-top: 7.5em;
+    }
+    #story-body {
+        height: 320vh;
+    }
 }
 
+
 @media (min-width: 768px) {
-  #map {
-    width: 50%;
-    height: auto;
-  }
+    #map {
+    width: 52%;
+    }
 }
+
 @media (min-width: 992px) {
-  #map {
+    #map {
+    width: 45%;
+    }
+}
+   
+
+@media (min-width: 1120px) {
+    .header-container {
+        padding-top: 5%;
+    }
+    .nav {
+        margin-top: 7.5em;
+    }
+    #map {
     width: 40%;
-    height: auto;
-  }
+    }
 }
-
-/*--main menu--*/
-@media (min-width: 992px) {
-  #nav {
-    margin-top: 2rem;
-  }
-}
-@media (min-width: 768px) {
-  #nav li {
-    width: auto;
-    padding: 15px;
-  }
-}
-
-@media (min-width: 576px) {
-  #story-body {
-    height: 465vh;
-  }
-}
-@media (min-width: 768px) {
-  #story-body {
-    height: 340vh;
-  }
-  .about-content {
-    margin: 0;
-  }
-}
-@media (min-width: 992px) {
-  #story-body {
-    height: 320vh;
-  }
-}
-@media (min-width: 1140px) {
-  #story-body {
-    height: 300vh;
-  }
-}
-
-@media (min-width: 768px) {
-  .container-mystory {
-    padding-top: 2%;
-  }
-  .row-md {
-    margin: 0% 5%;
-  }
-  .second-col {
-    margin: 0;
-  }
-}
-@media (min-width: 992px) {
-  .row-md {
-    margin: 0% 10%;
-  }
-}
-
-@media (min-width: 768px) {
-  .progress {
-    margin-right: 0;
-    margin-left: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .skill-items {
-    margin-left: 0%;
-    margin-right: 0%;
-  }
-}
-
-@media (min-width: 576px) {
-  #work-body {
-    height: 160vh;
-  }
-  .carousel-inner {
-    width: 60%;
-  }
-  .overlay-text {
-    top: 70%;
-  }
-}
-
-@media (min-width: 768px) {
-  #work-body {
-    height: 155vh;
-  }
-  .carousel-inner {
-    width: 50%;
-  }
-  .overlay-text {
-    top: 75%;
-  }
-  a.carousel-control-prev {
-    margin-left: 10%;
-  }
-  a.carousel-control-next {
-    margin-right: 10%;
-  }
-}
-
-@media (min-width: 992px) {
-  #work-body {
-    height: 145vh;
-  }
-  .carousel-inner {
-    width: 40%;
-  }
-  .overlay-text {
-    top: 80%;
-  }
-  a.carousel-control-prev {
-    margin-left: 15%;
-  }
-  a.carousel-control-next {
-    margin-right: 15%;
-  }
-}
-
-@media (min-width: 1140px) {
-  #work-body {
-    height: 145vh;
-  }
-  .carousel-inner {
-    width: 30%;
-  }
-  a.carousel-control-prev {
-    margin-left: 20%;
-  }
-  a.carousel-control-next {
-    margin-right: 20%;
-  }
-}
-
-@media (min-width: 576px) {
-  #contact-body {
-    height: 170vh;
-  }
-}
-@media (min-width: 992px) {
-  #contact-body {
-    height: 174vh;
-  }
-}
-@media (min-width: 1140px) {
-  #contact-body {
-    height: 187vh;
-  }
-}
-
-@media (min-width: 576px) {
-  .center-form {
-    max-width: 60%;
-  }
-}
-@media (min-width: 768px) {
-  .center-form {
-    max-width: 50%;
-  }
-}
-@media (min-width: 992px) {
-  .center-form {
-    max-width: 40%;
-  }
-}
-
