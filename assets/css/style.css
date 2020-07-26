@@ -63,7 +63,7 @@ body {
   font-size: 100%;
   color: rgba(87, 40, 90, 0.8);
   left: 49%;
-  top: 75%;
+  top: 77%;
   position: absolute;
   transform: translate(-50%, -50%);
 }
@@ -128,7 +128,7 @@ footer {
 /*---------------------------------My story---*/
 
 #story-body {
-  height: 370vh;
+  height: 332vh;
 }
 
 /*--Intro--*/
@@ -221,7 +221,7 @@ footer {
 .progress-type {
   position: absolute;
   font-weight: 400;
-  padding: 3%;
+  padding: 2%;
   color: #f7f7f7;
   background-color: rgba(25, 25, 25, 0.2);
 }
@@ -254,7 +254,7 @@ footer {
 /*---------------------------------My work---*/
 
 #work-body {
-  height: 112vh;
+  height: 108vh;
 }
 
 /*--Carousel--*/
@@ -318,7 +318,7 @@ footer {
 /*---------------------------------Contact---*/
 
 #contact-body {
-  height: 163vh;
+  height: 153vh;
 }
 
 .contact-text-bg {
