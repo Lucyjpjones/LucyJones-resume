@@ -46,7 +46,7 @@ The <u>key priorities</u> for my user are as follows:
 
 1. To easily access a hard copy of my CV
 2. To view my completed projects
-3. Have access to my contact Details
+3. Have access to my contact details
 
 #### Visuals
 
@@ -55,7 +55,7 @@ The <u>key priorities</u> for my user are as follows:
 
 * Simple design structure
 
-* Repeated design - Header and footer folow the same pattern on every page making it easy for my user to navigate site
+* Repeated design - Header and footer follow the same pattern on every page making it easy for my user to navigate site
 
 * Interactive - Map marker for homepage making my website unique and interactive for the user
 
@@ -73,7 +73,9 @@ Here is a working live demo :  https://iharsh234.github.io/WebApp/
 
 #### Responsive Design
 
-Viewport tag included in head of page- tells the browser how to respond to different resolutions, particularly mobile ones.
+- Viewport tag included in head of page- tells the browser how to respond to different resolutions, particularly mobile ones.
+
+- Mobile first design with media queries for larger device
 
 ---
 ## &rarr; Technologies
@@ -126,7 +128,7 @@ To-do list:
 
 > Project is: <u>ongoing</u>
 
-I will update my project as I learn new software skills and embark on new ideas. As i also develop through my career personal detials will be amended to ensure it includes the latest information.
+I will update my project as I learn new software skills and embark on new ideas. My personal details will also will also be continuously updated to ensure it includes the latest information.
 
 ---
 
@@ -187,9 +189,10 @@ Direct Nav link on menu bar to page with projects
 ### &rarr; **Credits**
 #### Content
 #### Media
-- mockup image with ipad from
-
-www.mockup
+- mockup image with ipad
+```
+MockUPhone.com powered by Oursky
+```
 
 #### Acknowledgements
 

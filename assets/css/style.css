@@ -4,15 +4,15 @@ html,
 body {
     margin: 0;
     padding: 0;
-  height: 100%;
-  position: relative;
-  background: #fafafa;
-
-  font-family: "Montserrat", sans-serif;
-  color: #585858;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+    height: 100%;
+    position: relative;
+    background: #fafafa;
+    
+    font-family: "Montserrat", sans-serif;
+    color: #585858;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .main-container {
