@@ -12,6 +12,7 @@ body {
   color: #585858;
   font-size: 14px;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .main-container {
@@ -104,6 +105,12 @@ footer {
   margin: 0;
   background-color: rgba(87, 40, 90, 0.1);
   min-height: 70px;
+  padding-bottom: 0;
+}
+
+#index-footer {
+    position: absolute;
+    bottom: 0;
 }
 
 .social-links {
@@ -113,6 +120,7 @@ footer {
 
 .social-links li a i {
   width: 24px;
+  height: 24px;
   border-radius: 50%;
   padding: 6px 0;
   font-size: 10px;
@@ -131,7 +139,7 @@ footer {
 
 /*--Intro--*/
 .container-mystory {
-  margin: 5%;
+  margin: 5% 5% 0 5%;
 }
 
 .title {
@@ -140,32 +148,42 @@ footer {
   text-align: center;
   text-transform: uppercase;
 }
-.hr-format {
-  margin-top: 0;
-  width: 60%;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-.intro p {
-  font-size: 11px;
-  font-weight: 300;
-  padding: 0 10%;
+
+#about-me {
+    margin-bottom: 20%;
 }
 
 #contact-details {
-  border: 1px dashed rgba(87, 40, 90, 0.5);
+  border: .5px solid rgba(87, 40, 90, 0.5);
   font-weight: 400;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
   border-radius: 5px;
   padding: 2% 0;
+  text-transform: lowercase;
 }
 
 #contact-details i {
   color: rgba(87, 40, 90, 0.5);
 }
 
+#contact-title {
+    position: absolute;
+    height: 100px;
+}
+
+#contact-p {
+    margin-top: 20%;
+}
+
 /*--Timelines--*/
+
+#story-container {
+    padding: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+}
 
 .history {
   margin: 5%;
@@ -253,14 +271,13 @@ footer {
 /*---------------------------------My work---*/
 
 .container-mywork {
-    margin: 5%;
+    margin: 10% 5% 5% 5%;
 }
 
 /*--Carousel--*/
 
 .carousel-inner {
   margin: 0 auto;
-  margin-top: 8%;
   width: 70%;
 }
 .carousel-indicators {
@@ -316,17 +333,16 @@ footer {
 
 /*---------------------------------Contact---*/
 
-.contact-text {
-    margin: 0 auto;
-    max-width: 70%;
-}
-
 .contact-text-bg {
     width: 100%;
     margin-top: 8%;
     background-color: rgba(87, 40, 90, 0.05);
     height: 17%;
     text-align: center
+}
+
+#work-text-bg {
+    height: 30%;
 }
 
 .contact-text h2,
@@ -337,7 +353,7 @@ footer {
   margin-bottom: 0;
 }
 .contact-text h6 {
-  font-size: 12px;
+  font-size: 10px;
   padding: 3% 5%;
   background: #fafafa;
   border: 1px dashed rgba(87, 40, 90, 0.1);
@@ -356,8 +372,7 @@ footer {
 .center-form {
   margin: 0 auto;
   max-width: 70%;
-  margin-top: 15%;
-  margin-bottom: 5%;
+  margin-top: 20%;
 }
 
 label {
@@ -386,21 +401,58 @@ button[type="submit"]:hover {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-
+    .center-form {
+        margin-top: 12%;
+    }
+    .contact-text h2 {
+        padding-top: 2%;
+    }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-
+    .contact-text-bg {
+        margin-top: 5%;
+    }
+    #work-t {
+    margin-top: 30%;
+    }
+    .container-mywork {
+        margin: 5% 10% 5% 10%;
+    }
+    .contact-text h6 {
+        width: 60%;
+        padding: 2%;
+    }
+    .center-form {
+        width: 60%;
+        margin-top: 8%;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
- 
-    
+    .container-mywork {
+        margin: 5% 15% 5% 15%;
+    }
+    .contact-text h6 {
+        width: 50%;
+    }
+    .center-form {
+        width: 50%;
+    }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+    .container-mywork {
+        margin: 5% 20% 5% 20%;
+    }
+    .contact-text h6 {
+        width: 40%;
+    }
+    .center-form {
+        width: 40%;
+    }
     
 }
