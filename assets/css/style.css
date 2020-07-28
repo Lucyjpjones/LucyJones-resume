@@ -342,7 +342,12 @@ footer {
 }
 
 #work-text-bg {
-    height: 30%;
+    height: 22%;
+}
+
+#work-text-m {
+    margin-top: 12%;
+    margin-bottom: 2%;
 }
 
 .contact-text h2,
@@ -427,6 +432,10 @@ button[type="submit"]:hover {
     .center-form {
         width: 60%;
         margin-top: 8%;
+    }
+
+    #work-text-m {
+    margin-top: 5%;
     }
 }
 
