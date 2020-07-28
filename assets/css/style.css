@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700|Bad+Script:300");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Bad+Script:300");
 
 html,
 body {
@@ -28,7 +28,6 @@ body {
 .header-container {
   padding-top: 20vh;
   text-align: center;
-  text-transform: uppercase;
 }
 
 /*--Main header text--*/
@@ -38,7 +37,6 @@ body {
   font-weight: 300;
   margin: 0 7vh 2vh 7vh;
 }
-
 #my-name {
   color: rgba(87, 40, 90, 0.6);
   font-size: 1.8rem;
@@ -52,7 +50,6 @@ body {
     filter: opacity(0.7);
     width: 90%;
 }
-
 #map {
     max-width: 300px;
     width: 55%;
@@ -61,7 +58,6 @@ body {
     position: absolute;
     transform: translate(-50%, -50%);
 }
-
 #marker {
   font-size: 100%;
   color: rgba(87, 40, 90, 0.8);
@@ -85,7 +81,6 @@ body {
     margin-top: 5rem;
     max-width: 60vw;
 }
-
 .nav li a {
   text-decoration: none;
   color: #585858;
@@ -107,7 +102,6 @@ footer {
   min-height: 70px;
   padding-bottom: 0;
 }
-
 #index-footer {
     position: absolute;
     bottom: 0;
@@ -117,41 +111,67 @@ footer {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
-
 .social-links li a i {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  padding: 6px 0;
+  padding: 5px;
   font-size: 10px;
   color: #fafafa;
   background: #8f8f8f;
 }
 .social-links li a i:hover {
-  background: rgba(87, 40, 90, 0.5);
+  background: rgba(87, 40, 90, 0.4);
 }
 .copyright {
   font-size: 8px;
   padding-top: 0.5rem;
 }
 
+/*--Page titles---*/
+
+.title-bg {
+    width: 100%;
+    margin-top: 8%;
+    background-color: rgba(87, 40, 90, 0.05);
+    height: 17%;
+    text-align: center;
+}
+
+.title-text h2,
+.title-text h6 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 5%;
+  margin-bottom: 0;
+  text-align: center;
+}
+.title-text h6 {
+  font-size: 10px;
+  padding: 3% 5%;
+  background: #fafafa;
+  border: 1px dashed rgba(87, 40, 90, 0.1);
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2%;
+  text-transform: capitalize;
+}
+
+#story-title {
+    position: absolute;
+    height: 100px;
+}
+#story-text {
+    margin-top: 20%;
+}
+
+#work-title-bg {
+    height: 22%;
+}
+
 /*---------------------------------My story---*/
 
 /*--Intro--*/
-.container-mystory {
-  margin: 5% 5% 0 5%;
-}
-
-.title {
-  font-size: 14px;
-  margin-top: 5%;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#about-me {
-    margin-bottom: 20%;
-}
 
 #contact-details {
   border: .5px solid rgba(87, 40, 90, 0.5);
@@ -163,32 +183,21 @@ footer {
   padding: 2% 0;
   text-transform: lowercase;
 }
-
 #contact-details i {
   color: rgba(87, 40, 90, 0.5);
 }
 
-#contact-title {
-    position: absolute;
-    height: 100px;
-}
-
-#contact-p {
-    margin-top: 20%;
+.title {
+  font-size: 14px;
+  margin-top: 5%;
+  text-align: center;
 }
 
 /*--Timelines--*/
 
-#story-container {
-    padding: 0;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
 .history {
   margin: 5%;
 }
-
 .timeline-item {
   padding: 4rem 2rem 0rem 2rem;
   position: relative;
@@ -201,6 +210,7 @@ footer {
 .timeline-item p {
   margin: 0;
   font-size: 12px;
+  text-transform: capitalize;
 }
 .timeline-item:before {
   content: attr(data-dates);
@@ -229,17 +239,17 @@ footer {
   margin-right: 10%;
   margin-left: 10%;
 }
-
 .progress-bar {
   background-color: rgba(87, 40, 90, 0.2);
 }
-
 .progress-type {
   position: absolute;
+  font-size: 8px;
   font-weight: 400;
-  padding: 2%;
+  padding: 3%;
   color: #f7f7f7;
   background-color: rgba(25, 25, 25, 0.2);
+  top: -3px;
 }
 
 /*--Software Skills--*/
@@ -247,11 +257,7 @@ footer {
 .software-skills {
   margin-left: 15%;
   margin-right: 15%;
-  margin-bottom: 15%;
-}
-
-.icon-skill {
-  padding: 0;
+  margin-bottom: 5%;
 }
 
 .icon-skill img {
@@ -270,18 +276,14 @@ footer {
 
 /*---------------------------------My work---*/
 
-.container-mywork {
-    margin: 10% 5% 5% 5%;
-}
-
 /*--Carousel--*/
 
+.carousel-indicators {
+  margin-bottom: 1%;
+}
 .carousel-inner {
   margin: 0 auto;
   width: 70%;
-}
-.carousel-indicators {
-  margin-bottom: 1%;
 }
 .carousel-control-next span,
 .carousel-control-prev span {
@@ -301,24 +303,21 @@ footer {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
-  top: 65%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
   font-size: 12px;
-  margin-bottom: 0;
+}
+.overlay-text p {
+    margin-bottom: 0.5rem;
 }
 .carousel-item:hover .img-overlay {
   filter: brightness(30%);
 }
 .carousel-item:hover .overlay-text {
   opacity: 1;
-}
-.overlay-text p {
-  color: white;
-  font-size: 12px;
-  margin-bottom: 0;
 }
 .btn-primary {
   border: 1px solid #fafafa;
@@ -327,57 +326,24 @@ footer {
   padding: 2px 5px;
 }
 .btn-primary:hover {
-    background: none;
+    background: #585858;
     border: 1px solid #fafafa;
+    color: #fafafa;
 }
 
 /*---------------------------------Contact---*/
 
-.contact-text-bg {
-    width: 100%;
-    margin-top: 8%;
-    background-color: rgba(87, 40, 90, 0.05);
-    height: 17%;
-    text-align: center
-}
-
-#work-text-bg {
-    height: 22%;
-}
-
-#work-text-m {
-    margin-top: 12%;
-    margin-bottom: 2%;
-}
-
-.contact-text h2,
-.contact-text h6 {
-  font-size: 16px;
-  font-weight: 400;
-  padding-top: 5%;
-  margin-bottom: 0;
-}
-.contact-text h6 {
-  font-size: 10px;
-  padding: 3% 5%;
-  background: #fafafa;
-  border: 1px dashed rgba(87, 40, 90, 0.1);
-  width: 70%;
-  margin: 0 auto;
-  margin-top: 2%;
-}
-
-.contact-text i {
+.title-text i {
   color: #585858;
   opacity: 0.5;
 }
 
 /*--Form--*/
 
-.center-form {
+.center-content {
   margin: 0 auto;
   max-width: 70%;
-  margin-top: 20%;
+  margin-top: 12%;
 }
 
 label {
@@ -406,62 +372,49 @@ button[type="submit"]:hover {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    .center-form {
-        margin-top: 12%;
-    }
-    .contact-text h2 {
-        padding-top: 2%;
+    .center-content {
+        margin-top: 8%;
     }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .contact-text-bg {
+    .title-bg {
         margin-top: 5%;
     }
-    #work-t {
-    margin-top: 30%;
-    }
-    .container-mywork {
-        margin: 5% 10% 5% 10%;
-    }
-    .contact-text h6 {
-        width: 60%;
-        padding: 2%;
-    }
-    .center-form {
-        width: 60%;
-        margin-top: 8%;
-    }
-
-    #work-text-m {
-    margin-top: 5%;
+    #story-text, #work-tl {
+        margin-top: 40%;
     }
 }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-    .container-mywork {
-        margin: 5% 15% 5% 15%;
+@media (min-width: 992px) { 
+    .title-text h2 {
+        padding-top: 3%;
     }
-    .contact-text h6 {
+    .title-text h6 {
         width: 50%;
+        padding: 2% 3%;
+        margin-top: 1%;
     }
-    .center-form {
+    #story-text h6 {
+        width: 60%;
+    }
+    .center-content {
         width: 50%;
+        margin-top: 6%;
     }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    .container-mywork {
-        margin: 5% 20% 5% 20%;
-    }
-    .contact-text h6 {
+    .title-text h6 {
         width: 40%;
     }
-    .center-form {
+    .center-content {
         width: 40%;
     }
-    
+    .progress-type {
+        top:-4px;
+    }    
 }

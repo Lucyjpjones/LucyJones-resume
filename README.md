@@ -1,4 +1,4 @@
-# ![MyResume](assets/images/readme/homepage-new.png)
+# ![MyResume](assets/images/readme/homepage-ss.png)
 
 # My Resume
 
@@ -141,6 +141,7 @@ I will update my project as I learn new software skills and embark on new ideas.
     * Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 - [**jQuery:**](https://jquery.com/)
   - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+  - Included at end of body tag within HTML files to ensure smooth running off HMTL and CSS.
 - [**Git**](https://git-scm.com/)
   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [**GitHub**](https://github.com/)
