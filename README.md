@@ -1,14 +1,14 @@
 # ![MyResume](assets/images/readme/homepage-ss.png)
 
-# My Resume
+# LucyJones - Resume
 
-[View the live project here.](https://codeinstitute.net)
-
+```
 My resume is a custom site built to present my skills, completed projects, education and previous work experience to potential employers and clients.
 
 ```
 This site was built using [GitHub Pages](https://pages.github.com/).
-```
+
+[View my site](https://lucyjpjones.github.io/LucyJones-resume/)
 
 ---
 
@@ -83,6 +83,7 @@ The <u>key priorities</u> for my user are as follows:
 * **Typography**
   * The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
 
+  * White background used throughout site to avoid any visual obstacles and helping add visual emphasis to other important parts of the design. I decided to use an off-white (#fafafa) as it is easier on the eyes.
 
 #### Wireframes
 
@@ -113,10 +114,10 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 #### To-do list:
 
 - **Carousel multi items**
-  - Make multiple slides visible on medium or larger devices
+  - Make multiple slides visible on medium or larger devices (This layout is shown in my wireframes).
 
 - **Model**
-   - I will add model response to contact form when I have greater knowledge of Javascript language
+   - I will add model response to contact form when I have greater knowledge of Javascript language.
 
 - **Replace titles**
   - Replace title tags with a nicer formatted pop up text box.
@@ -166,10 +167,19 @@ I will update my project as I learn new software skills and embark on new ideas.
 The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository. 
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu. Alternatively Click Here for a GIF demonstrating the process starting from Step 
+
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu. 
+
+![Deploy-settings](assets/images/readme/deploy-settings.png)
+
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
+
+![Deploy-settings](assets/images/readme/deploy-GHsource.png)
+
 5. The page will automatically refresh.
+
 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 #### Accessing code
@@ -237,7 +247,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * [**HTML Validator**](https://validator.w3.org/nu/#textarea)
 
 
-- One warning message received;
+  One warning message received;
 
 > Warning: The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment.
     
@@ -245,20 +255,8 @@ Code not altered as hyphens have been used to help structure my html code. Six h
 
 * [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-  Warning messages received;
+  No error or warning messages received.
 
-> Warning: 
-      <br>
-      -moz-transition, is an unknown vendor extension
-      <br>
-	  -webkit-transition is an unknown vendor extension
-      <br>
-      -o-transition is an unknown vendor extension
-      <br>
-      -ms-transform is an unknown vendor extension
-      >
-    
-Code not altered as hyphens have been used to help support browser compatibility.
 
 #### Responsive Design
 
@@ -269,24 +267,30 @@ Code not altered as hyphens have been used to help support browser compatibility
 - Media queries used in css file to target larger devices.
 
 #### Additional Testing
-* The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
-* The website was viewed on a variety of devices including Laptop, Macbook, ipad and iPhone8.
-* A large amount of testing was done to ensure that all pages were linking correctly.
-* Friends and family members were asked to review the site to point out any bugs, user experience issues and/or suggestions.
 
-#### Bugs & Feedback improvements
-* Titles added to software skill icons so user has a quick summary of the meaning of each language/program.
+* The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+
+* The website was viewed on a variety of devices including Laptop, Macbook, ipad and iPhone8.
+
+* Friends and family members were asked to review the site to point out any bugs, user experience issues and/or suggestions.
+  * Feedback action:
+    * Titles added to software skill icons so user has a quick summary of the meaning of each language/program.
+
+#### Bugs
+* Git logo not loading image
 
 ## &rarr; **Credits**
 #### Content
 
 - Bootstrap 4.7: Bootstrap Library used throughout the project, coponents used include the grid System, carousel, timeline and form templates.
 
-- Code Institue: Definitions for Software skills taken from code institute 'Full Stack Development Prospectus'.
+- Code Institue:  Title text content for software skills taken from code institute 'Full Stack Development Prospectus'.
 #### Media
-- The macbook mockup image was created through [mockupphone.com](https://mockuphone.com/about)
+- The macbook mockup image was created through [mockupphone.com](https://mockuphone.com/about).
 
-- Inspiration for skyline image was taken from [Shutterstock](https://www.shutterstock.com/)
+- Inspiration for skyline image was taken from [Shutterstock](https://www.shutterstock.com/).
+
+- Software icon images taken from [pixabay](https://pixabay.com/), [Needpix](https://www.needpix.com/) and [Wikimedia commons](https://commons.wikimedia.org/wiki/Main_Page).
 
 #### Acknowledgements
  - My Mentor for continuous help and support throughout the project.
