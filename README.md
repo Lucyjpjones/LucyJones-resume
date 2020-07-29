@@ -34,6 +34,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
     * HTML
     * CSS
   * Responsive design
+  * Additional Testing
   * Bugs
 
 * [Deployment](#deployment)
@@ -117,6 +118,9 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 - **Model**
    - I will add model response to contact form when I have greater knowledge of Javascript language
 
+- **Replace titles**
+  - Replace title tags with a nicer formatted pop up text box.
+
 #### Status
 
 > Project is: <u>ongoing</u>
@@ -148,6 +152,8 @@ I will update my project as I learn new software skills and embark on new ideas.
   - GitHub is used to store the projects code after being pushed from Git.
 - [**Paint 3D:**](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
   - Paint 3D was used to edit and create images for the website.
+- [**Snipping Tool:**](https://support.microsoft.com/en-gb/help/13776/windows-10-use-snipping-tool-to-capture-screenshots)
+  - Snipping Tool was used to take screenshots of my website for the markdown.
 - [**Balsamiq**](https://balsamiq.com/)
   - Balsamiq was used to create the wireframes during the design process.
 
@@ -178,26 +184,51 @@ The project was deployed to GitHub Pages using the following steps...
 1. **To be able to easily navigate throughout the site to find the desired content**
 - Upon entering the site, users are automatically greeted with a simple structured homepage which is the header throughout all pages of the site.
 -  The header features an easily readable navigation bar to go to the page of their choice.
+
+![Header design- all pages](assets/images/readme/US1-header.png)
 - Footer content is consistent throughout all pages.
+
+![Footer](assets/images/readme/US1-footer.png)
+
 2. **Ability to access a hard copy of my CV**
 - 'Resume' link on menu bar which is a direct link to download a hard copy of my CV.
 - Visible on every page of website
 - Opens up CV in new tab in browser so user won't lose their place on the site.
+
+![Resume download option](assets/images/readme/US2.png)
+
 3. **To view my portfolio of work**
 - 'My work' link on menu bar to access page with my latest projects.
 - Carousel used to display projects and create user interaction with carousel indicators and control arrows.
 - Overlay text to provide project summary.
 - Button link to give user option to view full project in browser.
+
+![My work carousel](assets/images/readme/US3.png)
+
 4. **Ability to contact me**
 - 'Contact me' link on menu bar to page with direct contact form.
+
+![contact form](assets/images/readme/US4-CP.png)
+
 - Hover over map marker (homepage navigation link) to view my address.
+
+![Address marker](assets/images/readme/US4-marker.png)
+
 - Phone number and email included on 'My story' page.
+
+![About me contact details](assets/images/readme/US4-aboutme.png)
+
 - Contact details also accessible on hard copy of cv.
+
 5. **View my current skills & experience**
 - 'My story' link on menu bar to access a page with my current skills and experience.
+
+![My story page](assets/images/readme/US5-mystory.png)
+
 - This can also be found on hard copy of CV.
 6. **Access links to my other external social accounts**
 - At the bottom of every page there is a footer which contains links to my social platforms which is consistent throughout all pages.
+![Footer social links](assets/images/readme/US6-sociallinks.png)
 
 #### Validator checks
 
@@ -237,12 +268,21 @@ Code not altered as hyphens have been used to help support browser compatibility
 
 - Media queries used in css file to target larger devices.
 
-#### Bugs
+#### Additional Testing
+* The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+* The website was viewed on a variety of devices including Laptop, Macbook, ipad and iPhone8.
+* A large amount of testing was done to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site to point out any bugs, user experience issues and/or suggestions.
+
+#### Bugs & Feedback improvements
+* Titles added to software skill icons so user has a quick summary of the meaning of each language/program.
 
 ## &rarr; **Credits**
 #### Content
 
 - Bootstrap 4.7: Bootstrap Library used throughout the project, coponents used include the grid System, carousel, timeline and form templates.
+
+- Code Institue: Definitions for Software skills taken from code institute 'Full Stack Development Prospectus'.
 #### Media
 - The macbook mockup image was created through [mockupphone.com](https://mockuphone.com/about)
 
