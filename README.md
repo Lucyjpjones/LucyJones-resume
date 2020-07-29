@@ -2,10 +2,8 @@
 
 # LucyJones - Resume
 
-```
 My resume is a custom site built to present my skills, completed projects, education and previous work experience to potential employers and clients.
 
-```
 This site was built using [GitHub Pages](https://pages.github.com/).
 
 [View my site](https://lucyjpjones.github.io/LucyJones-resume/)
@@ -13,40 +11,37 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 ---
 
 ## <u>Table of contents</u>
-* [User Experience (UX)](#ux)
-  * Purpose of site
-  * User stories
-  * Design
-  * Wireframes
+- [![MyResume](assets/images/readme/homepage-ss.png)](#--myresume--assets-images-readme-homepage-sspng-)
+- [LucyJones - Resume](#lucyjones---resume)
+  * [&rarr; User Experience (UX)](#-rarr--user-experience--ux-)
+      - [Purpose](#purpose)
+      - [User stories](#user-stories)
+      - [Design](#design)
+      - [Wireframes](#wireframes)
+  * [&rarr; Features](#-rarr--features)
+      - [Features used](#features-used)
+      - [To-do list:](#to-do-list-)
+      - [Status](#status)
+  * [&rarr; Technologies](#-rarr--technologies)
+      - [Languages](#languages)
+      - [Frameworks, Libraries & Programs](#frameworks--libraries---programs)
+  * [&rarr; Deployment](#-rarr--deployment)
+      - [Deploy to Github](#deploy-to-github)
+      - [Accessing code](#accessing-code)
+  * [&rarr; Testing](#-rarr--testing)
+      - [Testing user stories](#testing-user-stories)
+      - [Validator checks](#validator-checks)
+      - [Responsive Design](#responsive-design)
+      - [Additional Testing](#additional-testing)
+      - [Bugs](#bugs)
+  * [&rarr; **Credits**](#-rarr----credits--)
+      - [Content](#content)
+      - [Media](#media)
+      - [Acknowledgements](#acknowledgements)
+  * [&rarr; **Contact**](#-rarr----contact--)
 
-* [Features](#features)
-  * Features used
-  * To-do
-  * Status
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-* [Technologies](#technologies)
-  * Languages
-  * Frameworks, Libraries & Programs
-
-* [Testing](#testing)
-  * Testing user stories
-  * Validator checks
-    * HTML
-    * CSS
-  * Responsive design
-  * Additional Testing
-  * Bugs
-
-* [Deployment](#deployment)
-  * Deploy to Github
-  * Accessing code
-
-* [Credits](#credits)
-    * Content
-    * Media
-    * Acknowledgements
-
-* [Contact](#contact)
 
 ---
 
@@ -89,7 +84,7 @@ The <u>key priorities</u> for my user are as follows:
 
 As part of the design process, before starting my project I used <u>Balsamiq</u> to create wireframes. Creating these mock-ups helped me plan the basic structure and arrangement of the features for my site.
 
-[View PDF of wireframes]("assets/pdf/wireframes.pdf")
+[View PDF of wireframes](assets/pdf/wireframes.pdf)
 
 ---
 ## &rarr; Features
