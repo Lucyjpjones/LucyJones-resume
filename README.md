@@ -335,6 +335,9 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 - Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the grid System, carousel, timeline and form templates.
 
 - Code Institue:  Title text content for software skills taken from code institute 'Full Stack Development Prospectus'.
+
+- [W3schools.com](https://www.w3schools.com/): Helped with the code for overlaying text on an image and making my email address into a link.
+
 #### Media
 - The Macbook mockup image was created through [mockupphone.com](https://mockuphone.com/about).
 
