@@ -1,18 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Bad+Script:300");
-
 html,
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    position: relative;
-    background: #fafafa;
-    
-    font-family: "Montserrat", sans-serif;
-    color: #585858;
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+  background: #fafafa;
+  font-family: "Montserrat", sans-serif;
+  color: #585858;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .main-container {
@@ -23,12 +21,14 @@ body {
   margin: 0;
 }
 
+
 /*---------------------------------Main header & footer---*/
 
 .header-container {
   padding-top: 20vh;
   text-align: center;
 }
+
 
 /*--Main header text--*/
 
@@ -37,27 +37,31 @@ body {
   font-weight: 300;
   margin: 0 7vh 2vh 7vh;
 }
+
 #my-name {
   color: rgba(87, 40, 90, 0.6);
   font-size: 1.8rem;
   font-weight: 400;
 }
 
+
 /*--Main header images & marker--*/
 
 #london-skyline {
-    max-width: 600px;
-    filter: opacity(0.7);
-    width: 90%;
+  max-width: 600px;
+  filter: opacity(0.7);
+  width: 90%;
 }
+
 #map {
-    max-width: 300px;
-    width: 55%;
-    left: 50%;
-    top: 84%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+  max-width: 300px;
+  width: 55%;
+  left: 50%;
+  top: 84%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
+
 #marker {
   font-size: 100%;
   color: rgba(87, 40, 90, 0.8);
@@ -66,26 +70,31 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
 }
+
 #marker:hover {
   font-size: 130%;
 }
 
+
 /*--Main nav menu--*/
 
 .list-inline-item:not(:last-child) {
-    margin: 0 auto;
-    padding: 0;
+  margin: 0 auto;
+  padding: 0;
 }
+
 .nav {
-    margin: 0 auto;
-    margin-top: 5rem;
-    max-width: 60vw;
+  margin: 0 auto;
+  margin-top: 5rem;
+  max-width: 60vw;
 }
+
 .nav li a {
   text-decoration: none;
   color: #585858;
   padding-bottom: 5px;
 }
+
 .nav li a:hover,
 li.active.col-12.list-inline-item a {
   padding: 4px 6px;
@@ -93,6 +102,7 @@ li.active.col-12.list-inline-item a {
   border-radius: 70%;
   font-size: 14px;
 }
+
 
 /*--Footer---*/
 
@@ -102,15 +112,17 @@ footer {
   min-height: 70px;
   padding-bottom: 0;
 }
+
 #index-footer {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .social-links {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
+
 .social-links li a i {
   width: 20px;
   height: 20px;
@@ -120,22 +132,25 @@ footer {
   color: #fafafa;
   background: #8f8f8f;
 }
+
 .social-links li a i:hover {
   background: rgba(87, 40, 90, 0.4);
 }
+
 .copyright {
   font-size: 8px;
   padding-top: 0.5rem;
 }
 
+
 /*--Page titles---*/
 
 .title-bg {
-    width: 100%;
-    margin-top: 8%;
-    background-color: rgba(87, 40, 90, 0.05);
-    height: 17%;
-    text-align: center;
+  width: 100%;
+  margin-top: 8%;
+  background-color: rgba(87, 40, 90, 0.05);
+  height: 17%;
+  text-align: center;
 }
 
 .title-text h2,
@@ -146,6 +161,7 @@ footer {
   margin-bottom: 0;
   text-align: center;
 }
+
 .title-text h6 {
   font-size: 10px;
   padding: 3% 5%;
@@ -158,18 +174,21 @@ footer {
 }
 
 #story-title {
-    position: absolute;
-    height: 100px;
+  position: absolute;
+  height: 100px;
 }
+
 #story-text {
-    margin-top: 20%;
+  margin-top: 20%;
 }
 
 #work-title-bg {
-    height: 22%;
+  height: 22%;
 }
 
+
 /*---------------------------------My story---*/
+
 
 /*--Intro--*/
 
@@ -183,6 +202,7 @@ footer {
   padding: 2% 0;
   text-transform: lowercase;
 }
+
 #contact-details i {
   color: rgba(87, 40, 90, 0.5);
 }
@@ -193,25 +213,30 @@ footer {
   text-align: center;
 }
 
+
 /*--Timelines--*/
 
 .history {
   margin: 5%;
 }
+
 .timeline-item {
   padding: 4rem 2rem 0rem 2rem;
   position: relative;
   border-left: 1px solid;
 }
+
 .timeline-item h4 {
   font-size: 14px;
   margin-bottom: 0;
 }
+
 .timeline-item p {
   margin: 0;
   font-size: 12px;
   text-transform: capitalize;
 }
+
 .timeline-item:before {
   content: attr(data-dates);
   position: absolute;
@@ -219,6 +244,7 @@ footer {
   font-weight: 500;
   font-size: 10px;
 }
+
 .timeline-item:after {
   width: 12px;
   height: 12px;
@@ -231,6 +257,7 @@ footer {
   background: rgba(87, 40, 90, 0.5);
 }
 
+
 /*--Personal skills--*/
 
 .progress {
@@ -239,9 +266,11 @@ footer {
   margin-right: 10%;
   margin-left: 10%;
 }
+
 .progress-bar {
   background-color: rgba(87, 40, 90, 0.2);
 }
+
 .progress-type {
   position: absolute;
   font-size: 8px;
@@ -251,6 +280,7 @@ footer {
   background-color: rgba(25, 25, 25, 0.2);
   top: -3px;
 }
+
 
 /*--Software Skills--*/
 
@@ -269,27 +299,33 @@ footer {
   filter: grayscale(100%);
   opacity: 0.6;
 }
+
 .icon-skill img:hover {
   filter: grayscale(0%);
   opacity: 1;
 }
 
+
 /*---------------------------------My work---*/
+
 
 /*--Carousel--*/
 
 .carousel-indicators {
   margin-bottom: 1%;
 }
+
 .carousel-inner {
   margin: 0 auto;
   width: 70%;
 }
+
 .carousel-control-next span,
 .carousel-control-prev span {
   font-size: 1.5rem;
   color: #585858;
 }
+
 
 /*--Carousel overlay--*/
 
@@ -299,6 +335,7 @@ footer {
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
+
 .overlay-text {
   transition: 0.5s ease;
   opacity: 0;
@@ -310,37 +347,44 @@ footer {
   color: white;
   font-size: 12px;
 }
+
 .overlay-text p {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
+
 .carousel-item:hover .img-overlay {
   filter: brightness(30%);
 }
+
 .carousel-item:hover .overlay-text {
   opacity: 1;
 }
+
 .btn-primary {
   border: 1px solid #fafafa;
   background: none;
   font-size: 8px;
   padding: 2px 5px;
 }
+
 .btn-primary:hover {
-    background: #585858;
-    border: 1px solid #fafafa;
-    color: #fafafa;
+  background: #585858;
+  border: 1px solid #fafafa;
+  color: #fafafa;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:focus {
-    background: rgba(87, 40, 90, 0.2);
-    border: 1px solid #fafafa;
-    color: #fafafa;
-    box-shadow: none;
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:focus {
+  background: rgba(87, 40, 90, 0.2);
+  border: 1px solid #fafafa;
+  color: #fafafa;
+  box-shadow: none;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
+
 
 /*---------------------------------Contact---*/
 
@@ -348,6 +392,7 @@ footer {
   color: #585858;
   opacity: 0.5;
 }
+
 
 /*--Form--*/
 
@@ -362,11 +407,12 @@ label {
   font-size: 10px;
 }
 
+
 /*--Submit button--*/
 
 #btn-submit {
-    text-align: center;
-    margin-top: 5%;
+  text-align: center;
+  margin-top: 5%;
 }
 
 button[type="submit"] {
@@ -375,57 +421,68 @@ button[type="submit"] {
   border: none;
   font-size: 14px;
 }
+
 button[type="submit"]:hover {
   background: rgba(87, 40, 90, 0.5);
 }
 
+
 /*---------------------------------Media Queries---*/
 
+
 /*Small devices (landscape phones, 576px and up)*/
+
 @media (min-width: 576px) {
-    .center-content {
-        margin-top: 8%;
-    }
+  .center-content {
+    margin-top: 8%;
+  }
 }
+
 
 /*Medium devices (tablets, 768px and up)*/
+
 @media (min-width: 768px) {
-    .title-bg {
-        margin-top: 5%;
-    }
-    #story-text, #work-tl {
-        margin-top: 40%;
-    }
+  .title-bg {
+    margin-top: 5%;
+  }
+  #story-text,
+  #work-tl {
+    margin-top: 40%;
+  }
 }
+
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
-    .title-text h2 {
-        padding-top: 3%;
-    }
-    .title-text h6 {
-        width: 50%;
-        padding: 2% 3%;
-        margin-top: 1%;
-    }
-    #story-text h6 {
-        width: 60%;
-    }
-    .center-content {
-        width: 50%;
-        margin-top: 6%;
-    }
+
+@media (min-width: 992px) {
+  .title-text h2 {
+    padding-top: 3%;
+  }
+  .title-text h6 {
+    width: 50%;
+    padding: 2% 3%;
+    margin-top: 1%;
+  }
+  #story-text h6 {
+    width: 60%;
+  }
+  .center-content {
+    width: 50%;
+    margin-top: 6%;
+  }
 }
 
+
 /*Extra large devices (large desktops, 1200px and up)*/
+
 @media (min-width: 1200px) {
-    .title-text h6 {
-        width: 40%;
-    }
-    .center-content {
-        width: 40%;
-    }
-    .progress-type {
-        top:-4px;
-    }    
+  .title-text h6 {
+    width: 40%;
+  }
+  .center-content {
+    width: 40%;
+  }
+  .progress-type {
+    top: -4px;
+  }
 }
