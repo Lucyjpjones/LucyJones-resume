@@ -476,6 +476,9 @@ button[type="submit"]:hover {
     width: 50%;
     margin-top: 6%;
   }
+  .progress-type {
+    top: -3px;
+  }
 }
 
 
@@ -488,5 +491,7 @@ button[type="submit"]:hover {
   .center-content {
     width: 40%;
   }
- 
+  .progress-type {
+    top: -5px;
+  }
 }
