@@ -170,7 +170,7 @@ footer {
   width: 70%;
   margin: 0 auto;
   margin-top: 2%;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 #story-title {
@@ -234,7 +234,7 @@ footer {
 .timeline-item p {
   margin: 0;
   font-size: 12px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .timeline-item:before {
