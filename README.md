@@ -64,18 +64,18 @@ The <u>key priorities</u> for my user are as follows:
 
 >**It takes about 50 milliseconds for users to form an opinion about your website that determines whether they’ll stay or leave** - Peep Laja, 2020
 
-* **Structure**
-  * A simple design structure with header pattern repeated to make it easy for my users to navigate around the site.
+- **Structure**
+  - A simple design structure with header pattern repeated to make it easy for my users to navigate around the site.
 
-* **Colour scheme**
-  * A monochromatic colour scheme to keep the design looking clean and elegant.
+- **Colour scheme**
+  - A monochromatic colour scheme to keep the design looking clean and elegant.
 
-  * Key colour is purple which is most frequently associated with creativity and imagination.
+  - Key colour is purple which is most frequently associated with creativity and imagination.
 
-  * A white background used throughout the site to avoid any visual obstacles and helping add visual emphasis to other important parts of the design. I decided to use an off-white (#fafafa) as it is easier on the eyes.
+  - A white background used throughout the site to avoid any visual obstacles and helping add visual emphasis to other important parts of the design. I decided to use an off-white (#fafafa) as it is easier on the eyes.
 
-* **Typography**
-  * The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font if for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+- **Typography**
+  - The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font if for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
 
 #### Wireframes
 
@@ -88,20 +88,20 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 
 #### Features used
 
-* **Responsive on all device sizes**
+- **Responsive on all device sizes**
   - Responsive through using Bootstrap grid system and CSS media queries.
-* **Nav links**
+- **Nav links**
   - A navigation menu to allow the user to easily access different pages of the site. There is also a nav icon link features on header map to allow the user to easily go back to the homepage from every page.
-* **Form**
+- **Form**
   - A contact form with submit button for users to easily get in touch via my website.
   - The form has been set up to ensure all fields are filled out and that email is written in the correct format.
-* **Timelines**
+- **Timelines**
   - Education and work history presented in a timeline to provide a clear summary of my experience.
-* **Download link**
+- **Download link**
   - A PDF download link to allow the user to access a hard copy of my CV. The file opens in a new tab to ensure websites presence is still maintained.
-* **External links to social platforms**
+- **External links to social platforms**
   - Recognisable icons with links to my external social platforms.
-* **Progress bars**
+- **Progress bars**
   - Progress bars used to visually represent my personal skills.
 
 #### To-do list:
@@ -180,7 +180,7 @@ The project was deployed to GitHub Pages using the following steps...
   Follow the steps below if you are wanting to propose changes to the project or to use the project as a starting point for your own idea.
 
 
-* **Forking the GitHub Repository**
+- **Forking the GitHub Repository**
 
   Forking allows you to create a copy of the original repository and propose changes to the repository owner via a pull request. 
 
@@ -192,7 +192,7 @@ The project was deployed to GitHub Pages using the following steps...
     
     3. You should now have a copy of the original repository in your GitHub account.
 
-* **Making a Local Clone**
+- **Making a Local Clone**
 
 When you clone a repository, the repository is copied on to your local machine.
 
@@ -258,7 +258,8 @@ When you clone a repository, the repository is copied on to your local machine.
 - 'My work' link on the menu bar to access the page with my latest projects.
 - Carousel used to display projects and create user interaction with carousel indicators and control arrows.
 - Overlay text to provide project summary.
-- Button link to give user option to view the full project in another browser.
+- Button link to give user option to view the full project in another browser. 
+  -- Button for all projects is currently linked to my GitHub account.
 
 ![My work carousel](assets/images/readme/US3.png)
 
@@ -292,7 +293,7 @@ When you clone a repository, the repository is copied on to your local machine.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Code was entered through direct input.
 
-* [**HTML Validator**](https://validator.w3.org/nu/#textarea)
+- [**HTML Validator**](https://validator.w3.org/nu/#textarea)
 
   One warning message received;
 
@@ -300,7 +301,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     
 Code not altered as hyphens have been used to help structure my HTML code. Six hyphens used for headings with two for sub-headings.
 
-* [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
   No error or warning messages received.
 
@@ -314,18 +315,18 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 
 #### Additional Testing
 
-* The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+- The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
 
-* The website was viewed on a variety of devices including Laptop, Macbook, Ipad and IPhone8.
+- The website was viewed on a variety of devices including Laptop, Macbook, Ipad and IPhone8.
 
-* Friends and family members were asked to review the site to point out any bugs, user experience issues and/or suggestions.
-  * Feedback action:
-    * Titles added to software skill icons so the user has a quick summary of the meaning of each language/program.
-    * On the footer, Facebook link changed to Github as this is more favoured by my target audience.
+- Friends and family members were asked to review the site to point out any bugs, user experience issues and/or suggestions.
+  - Feedback action:
+    - Titles added to software skill icons so the user has a quick summary of the meaning of each language/program.
+    - On the footer, Facebook link changed to Github as this is more favoured by my target audience.
 
 #### Bugs
 
-* On Iphone 8, HTML software logo isn't loading image.
+- On Iphone 8, HTML software logo isn't loading image.
 
 ## &rarr; **Credits**
 #### Content
