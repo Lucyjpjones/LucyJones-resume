@@ -138,6 +138,7 @@ I will update my project as I learn new software skills and embark on new ideas.
   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [**GitHub**](https://github.com/)
   - GitHub is used to store the projects code after being pushed from Git.
+  - GitHub Wiki TOC generator used to format markdown table of contents.
 - [**Paint 3D:**](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
   - Paint 3D was used to edit and create images for the website.
 - [**Snipping Tool:**](https://support.microsoft.com/en-gb/help/13776/windows-10-use-snipping-tool-to-capture-screenshots)
