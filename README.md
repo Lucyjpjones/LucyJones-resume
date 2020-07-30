@@ -145,7 +145,10 @@ I will update my project as I learn new software skills and embark on new ideas.
   - Snipping Tool was used to take screenshots of my website for the markdown.
 - [**Balsamiq**](https://balsamiq.com/)
   - Balsamiq was used to create the wireframes during the design process.
-
+- [**Grammarly**](https://www.grammarly.com/)
+  - Grammarly was used to ensure any grammar errors are eliminated.
+- [**HTML Formatter**](https://www.freeformatter.com/html-formatter.html) and [**CSS Formatter**](https://www.freeformatter.com/css-beautifier.html)
+  - Used to format my HTML and CSS file with desired indentation level for optimal readability.
 ---
 
 ## &rarr; **Deployment**
