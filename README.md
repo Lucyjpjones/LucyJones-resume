@@ -53,29 +53,29 @@ The online resume will aim to give users proof of my ability and confidence in w
 
 The <u>key priorities</u> for my user are as follows:
 
-1. To be able to easily navigate throughout the site to find desired content
-2. Ability to access a hard copy of my CV
-2. To view my portfolio of work
-3. Ability to contact me
-5. View my current skills & experience
-6. Access links to my other external social accounts
+1. To be able to easily navigate throughout the site to find the desired content.
+2. Ability to access a hard copy of my CV.
+2. To view my portfolio of work.
+3. Ability to contact me.
+5. View my current skills & experience.
+6. Access links to my other external social accounts.
 
 #### Design
 
 >**It takes about 50 milliseconds for users to form an opinion about your website that determines whether they’ll stay or leave** - Peep Laja, 2020
 
 * **Structure**
-  * A simple design structure with repeated pattern to make it easy for my users to navigate around the site.
+  * A simple design structure with header pattern repeated to make it easy for my users to navigate around the site.
 
-* **Color scheme**
-  * Monochromatic colour scheme to keep the design looking clean and elegant.
+* **Colour scheme**
+  * A monochromatic colour scheme to keep the design looking clean and elegant.
 
   * Key colour is purple which is most frequently associated with creativity and imagination.
 
-  * White background used throughout site to avoid any visual obstacles and helping add visual emphasis to other important parts of the design. I decided to use an off-white (#fafafa) as it is easier on the eyes.
+  * A white background used throughout the site to avoid any visual obstacles and helping add visual emphasis to other important parts of the design. I decided to use an off-white (#fafafa) as it is easier on the eyes.
 
 * **Typography**
-  * The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+  * The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font if for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
 
 #### Wireframes
 
@@ -89,15 +89,15 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 #### Features used
 
 * **Responsive on all device sizes**
-  - Responsive through using bootstrap grid system and css media queries.
+  - Responsive through using Bootstrap grid system and CSS media queries.
 * **Nav links**
-  - Navigation menu to allow user to easily access different pages of site. Also a nav icon link feautures on header map to allow user to easily go back to homepage from every page.
+  - A navigation menu to allow the user to easily access different pages of the site. There is also a nav icon link features on header map to allow the user to easily go back to the homepage from every page.
 * **Form**
   - A contact form with submit button for users to easily get in touch via my website.
 * **Timelines**
   - Education and work history presented in a timeline to provide a clear summary of my experience.
 * **Download link**
-  - A PDF download link to allow the user to access a hard copy of my CV. File opens in a new tab to ensure website's presence is still maintained.
+  - A PDF download link to allow the user to access a hard copy of my CV. The file opens in a new tab to ensure websites presence is still maintained.
 * **External links to social platforms**
   - Recognisable icons with links to my external social platforms.
 * **Progress bars**
@@ -109,13 +109,13 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
   - Make multiple slides visible on medium or larger devices (This layout is shown in my wireframes).
 
 - **Model**
-   - I will add model response to contact form when I have greater knowledge of Javascript language.
+   - I will add a model response to contact form when I have a greater knowledge of Javascript language.
 
 #### Status
 
 > Project is: <u>ongoing</u>
 
-I will update my project as I learn new software skills and embark on new ideas. My personal details will also be continuously updated to ensure i've included the latest information.
+I will update my project as I learn new software skills and embark on new ideas. My personal details will also be continuously updated to ensure I've included the latest information.
 
 ---
 ## &rarr; **Technologies**
@@ -137,12 +137,12 @@ I will update my project as I learn new software skills and embark on new ideas.
 - [**Git**](https://git-scm.com/)
   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [**GitHub**](https://github.com/)
-  - GitHub is used to store the projects code after being pushed from Git.
-  - GitHub Wiki TOC generator used to format markdown table of contents.
+  - GitHub is used to store the project code after being pushed from Git.
+  - GitHub Wiki TOC generator used to format README.md table of contents.
 - [**Paint 3D:**](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
   - Paint 3D was used to edit and create images for the website.
 - [**Snipping Tool:**](https://support.microsoft.com/en-gb/help/13776/windows-10-use-snipping-tool-to-capture-screenshots)
-  - Snipping Tool was used to take screenshots of my website for the markdown.
+  - Snipping Tool was used for screenshots of my website.
 - [**Balsamiq**](https://balsamiq.com/)
   - Balsamiq was used to create the wireframes during the design process.
 - [**Grammarly**](https://www.grammarly.com/)
@@ -159,7 +159,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository. 
 
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu. 
+2. At the top of the Repository (not top of page), locate the "Settings" button on the menu. 
 
 ![Deploy-settings](assets/images/readme/deploy-settings.png)
 
@@ -185,7 +185,7 @@ The project was deployed to GitHub Pages using the following steps...
 
     1. Log in to GitHub and locate the GitHub Repository
     
-    2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+    2. At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.
 
     ![forking](assets/images/readme/forking.png)
     
@@ -197,7 +197,7 @@ When you clone a repository, the repository is copied on to your local machine.
 
   1. Log in to GitHub and locate the GitHub Repository.
 
-  2. Under the repository name, click "Download code" option.
+  2. Under the repository name, click the "download code" option.
 
   ![Clone](assets/images/readme/clone.png)
 
@@ -235,7 +235,7 @@ When you clone a repository, the repository is copied on to your local machine.
 ## &rarr; **Testing**
 
 #### Testing user stories
- Testing my users <u>key priorities</u>:
+ Testing my user's <u>key priorities</u>:
 
 1. **To be able to easily navigate throughout the site to find the desired content**
 - Upon entering the site, users are automatically greeted with a simple structured homepage which is the header throughout all pages of the site.
@@ -247,22 +247,22 @@ When you clone a repository, the repository is copied on to your local machine.
 ![Footer](assets/images/readme/US1-footer.png)
 
 2. **Ability to access a hard copy of my CV**
-- 'Resume' link on menu bar which is a direct link to download a hard copy of my CV.
-- Visible on every page of website
-- Opens up CV in new tab in browser so user won't lose their place on the site.
+- 'Resume' link on the menu bar which is a direct link to download a hard copy of my CV.
+- Visible on every page of the website.
+- Opens up my CV in a new tab in the browser so the user won't lose their place on the site.
 
 ![Resume download option](assets/images/readme/US2.png)
 
 3. **To view my portfolio of work**
-- 'My work' link on menu bar to access page with my latest projects.
+- 'My work' link on the menu bar to access the page with my latest projects.
 - Carousel used to display projects and create user interaction with carousel indicators and control arrows.
 - Overlay text to provide project summary.
-- Button link to give user option to view full project in browser.
+- Button link to give user option to view the full project in another browser.
 
 ![My work carousel](assets/images/readme/US3.png)
 
 4. **Ability to contact me**
-- 'Contact me' link on menu bar to page with direct contact form.
+- 'Contact me' link on the menu bar to page with direct contact form.
 
 ![contact form](assets/images/readme/US4-CP.png)
 
@@ -274,16 +274,17 @@ When you clone a repository, the repository is copied on to your local machine.
 
 ![About me contact details](assets/images/readme/US4-aboutme.png)
 
-- Contact details also accessible on hard copy of cv.
+- Contact details also accessible on the hard copy of cv.
 
 5. **View my current skills & experience**
-- 'My story' link on menu bar to access a page with my current skills and experience.
+- 'My story' link on the menu bar to access a page with my current skills and experience.
 
 ![My story page](assets/images/readme/US5-mystory.png)
 
-- This can also be found on hard copy of CV.
+- This can also be found on the hard copy of CV.
+
 6. **Access links to my other external social accounts**
-- At the bottom of every page there is a footer which contains links to my social platforms which is consistent throughout all pages.
+- At the bottom of each page, there is a footer which contains links to my social platforms which is consistent throughout all pages.
 ![Footer social links](assets/images/readme/US6-sociallinks.png)
 
 #### Validator checks
@@ -296,7 +297,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 > Warning: The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment.
     
-Code not altered as hyphens have been used to help structure my html code. Six hyphens used for headings with two for sub-headings.
+Code not altered as hyphens have been used to help structure my HTML code. Six hyphens used for headings with two for sub-headings.
 
 * [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
@@ -304,22 +305,22 @@ Code not altered as hyphens have been used to help structure my html code. Six h
 
 #### Responsive Design
 
-- Site created as mobile first design inline with bootstrap.
+- Site created as a mobile-first design inline with Bootstrap.
 
-- Viewport tag included in head of page to tell the browser how to respond to different resolutions, particularly mobile ones.
+- Viewport tag included in the head of HTML files to tell the browser how to respond to different resolutions, particularly mobile ones.
 
-- Media queries used in css file to target larger devices.
+- Media queries used in the CSS file to target larger devices.
 
 #### Additional Testing
 
 * The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
 
-* The website was viewed on a variety of devices including Laptop, Macbook, ipad and iPhone8.
+* The website was viewed on a variety of devices including Laptop, Macbook, Ipad and IPhone8.
 
 * Friends and family members were asked to review the site to point out any bugs, user experience issues and/or suggestions.
   * Feedback action:
-    * Titles added to software skill icons so user has a quick summary of the meaning of each language/program.
-    * On footer, facebook link changed to Github as this is more favoured by my target audience.
+    * Titles added to software skill icons so the user has a quick summary of the meaning of each language/program.
+    * On the footer, Facebook link changed to Github as this is more favoured by my target audience.
 
 #### Bugs
 
@@ -327,15 +328,15 @@ Code not altered as hyphens have been used to help structure my html code. Six h
 ## &rarr; **Credits**
 #### Content
 
-- Bootstrap 4.5: Bootstrap Library used throughout the project, coponents used include the grid System, carousel, timeline and form templates.
+- Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the grid System, carousel, timeline and form templates.
 
 - Code Institue:  Title text content for software skills taken from code institute 'Full Stack Development Prospectus'.
 #### Media
-- The macbook mockup image was created through [mockupphone.com](https://mockuphone.com/about).
+- The Macbook mockup image was created through [mockupphone.com](https://mockuphone.com/about).
 
-- Inspiration for skyline image was taken from [Shutterstock](https://www.shutterstock.com/).
+- Inspiration for the London skyline image was taken from [Shutterstock](https://www.shutterstock.com/).
 
-- Software icon images taken from [pixabay](https://pixabay.com/), [Needpix](https://www.needpix.com/) and [Wikimedia commons](https://commons.wikimedia.org/wiki/Main_Page).
+- Software icon images were taken from [pixabay](https://pixabay.com/), [Needpix](https://www.needpix.com/) and [Wikimedia commons](https://commons.wikimedia.org/wiki/Main_Page).
 
 #### Acknowledgements
  - My Mentor for continuous help and support throughout the project.
