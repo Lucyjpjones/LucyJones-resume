@@ -1,6 +1,5 @@
 # ![MyResume](assets/images/readme/homepage-ss.png)
-
-# LucyJones - Resume
+<h1 align="center">LucyJones- Resume</h1>
 
 My resume is a custom site built to present my skills, completed projects, education and previous work experience to potential employers and clients.
 
@@ -12,36 +11,36 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 ## <u>Table of contents</u>
 
-  - [&rarr; **User Experience (UX)**](#-rarr----user-experience--ux---)
+- [**User Experience (UX)**](#--user-experience--ux---)
     + [Purpose](#purpose)
     + [User stories](#user-stories)
     + [Design](#design)
     + [Wireframes](#wireframes)
-- [&rarr; **Features**](#-rarr----features--)
+- [**Features**](#--features--)
     + [Features used](#features-used)
     + [To-do list:](#to-do-list-)
     + [Status](#status)
-- [&rarr; **Technologies**](#-rarr----technologies--)
+- [**Technologies**](#--technologies--)
     + [Languages](#languages)
     + [Frameworks, Libraries & Programs](#frameworks--libraries---programs)
-- [&rarr; **Deployment**](#-rarr----deployment--)
+- [**Deployment**](#--deployment--)
     + [Deploy to Github](#deploy-to-github)
     + [Accessing code](#accessing-code)
-- [&rarr; **Testing**](#-rarr----testing--)
+- [**Testing**](#--testing--)
     + [Testing user stories](#testing-user-stories)
     + [Validator checks](#validator-checks)
     + [Responsive Design](#responsive-design)
     + [Additional Testing](#additional-testing)
-    + [Known Bugs](#bugs)
-- [&rarr; **Credits**](#-rarr----credits--)
+    + [Known Bugs](#known-bugs)
+- [**Credits**](#--credits--)
     + [Content](#content)
     + [Media](#media)
     + [Acknowledgements](#acknowledgements)
-- [&rarr; **Contact**](#-rarr----contact--)
+- [**Contact**](#--contact--)
 
 ---
 
-## &rarr; **User Experience (UX)**
+## **User Experience (UX)**
 
 #### Purpose
 
@@ -84,7 +83,7 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 [View PDF of wireframes](assets/pdf/wireframes.pdf)
 
 ---
-## &rarr; **Features**
+## **Features**
 
 #### Features used
 
@@ -119,7 +118,7 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 I will update my project as I learn new software skills and embark on new ideas. My personal details will also be continuously updated to ensure I've included the latest information.
 
 ---
-## &rarr; **Technologies**
+## **Technologies**
 
 #### Languages
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -152,7 +151,7 @@ I will update my project as I learn new software skills and embark on new ideas.
   - Used to format my HTML and CSS file with desired indentation level for optimal readability.
 ---
 
-## &rarr; **Deployment**
+## **Deployment**
 
 #### Deploy to Github
 
@@ -233,7 +232,7 @@ When you clone a repository, the repository is copied on to your local machine.
 
 ---
 
-## &rarr; **Testing**
+## **Testing**
 
 #### Testing user stories
  Testing my user's <u>key priorities</u>:
@@ -329,7 +328,7 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 
 - HTML logo was not loading on Apple devices and internet explorer but this has now been resolved through providing image from another source.
 
-## &rarr; **Credits**
+## **Credits**
 #### Content
 
 - Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the grid System, carousel, timeline and form templates.
@@ -348,7 +347,7 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 #### Acknowledgements
  - My Mentor for continuous help and support throughout the project.
 
-## &rarr; **Contact**
+## **Contact**
 Created by @lucyjpjones
 
 If you have any problems, questions or suggestions for my project please contact me on the email below:
