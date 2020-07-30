@@ -88,7 +88,7 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 ---
 ## &rarr; **Features**
 
-#### Features used
+#### Features used:
 
 - **Responsive on all device sizes**
   - Responsive through using Bootstrap grid system and CSS media queries.
