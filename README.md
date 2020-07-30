@@ -94,6 +94,7 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
   - A navigation menu to allow the user to easily access different pages of the site. There is also a nav icon link features on header map to allow the user to easily go back to the homepage from every page.
 * **Form**
   - A contact form with submit button for users to easily get in touch via my website.
+  - The form has been set up to ensure all fields are filled out and that email is written in the correct format.
 * **Timelines**
   - Education and work history presented in a timeline to provide a clear summary of my experience.
 * **Download link**
@@ -324,6 +325,7 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 
 #### Bugs
 
+* On Iphone 8, HTML software logo isn't loading image.
 
 ## &rarr; **Credits**
 #### Content

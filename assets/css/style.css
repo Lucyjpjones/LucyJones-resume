@@ -278,7 +278,8 @@ footer {
   padding: 3%;
   color: #f7f7f7;
   background-color: rgba(25, 25, 25, 0.2);
-  top: -3px;
+  top: -2px;
+  text-transform: none;
 }
 
 
