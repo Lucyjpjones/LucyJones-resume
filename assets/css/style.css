@@ -331,6 +331,17 @@ footer {
     color: #fafafa;
 }
 
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:focus {
+    background: rgba(87, 40, 90, 0.2);
+    border: 1px solid #fafafa;
+    color: #fafafa;
+    box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+}
+
 /*---------------------------------Contact---*/
 
 .title-text i {
