@@ -12,32 +12,32 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 ## <u>Table of contents</u>
 
-  * [**&rarr; User Experience (UX)**](#-rarr--user-experience--ux-)
-      - [Purpose](#purpose)
-      - [User stories](#user-stories)
-      - [Design](#design)
-      - [Wireframes](#wireframes)
-  * [**&rarr; Features**](#-rarr--features)
-      - [Features used](#features-used)
-      - [To-do list:](#to-do-list-)
-      - [Status](#status)
-  * [**&rarr; Technologies**](#-rarr--technologies)
-      - [Languages](#languages)
-      - [Frameworks, Libraries & Programs](#frameworks--libraries---programs)
-  * [**&rarr; Deployment**](#-rarr--deployment)
-      - [Deploy to Github](#deploy-to-github)
-      - [Accessing code](#accessing-code)
-  * [**&rarr; Testing**](#-rarr--testing)
-      - [Testing user stories](#testing-user-stories)
-      - [Validator checks](#validator-checks)
-      - [Responsive Design](#responsive-design)
-      - [Additional Testing](#additional-testing)
-      - [Bugs](#bugs)
-  * [&rarr; **Credits**](#-rarr----credits--)
-      - [Content](#content)
-      - [Media](#media)
-      - [Acknowledgements](#acknowledgements)
-  * [&rarr; **Contact**](#-rarr----contact--)
+  - [&rarr; **User Experience (UX)**](#-rarr----user-experience--ux---)
+    + [Purpose](#purpose)
+    + [User stories](#user-stories)
+    + [Design](#design)
+    + [Wireframes](#wireframes)
+- [&rarr; **Features**](#-rarr----features--)
+    + [Features used](#features-used)
+    + [To-do list:](#to-do-list-)
+    + [Status](#status)
+- [&rarr; **Technologies**](#-rarr----technologies--)
+    + [Languages](#languages)
+    + [Frameworks, Libraries & Programs](#frameworks--libraries---programs)
+- [&rarr; **Deployment**](#-rarr----deployment--)
+    + [Deploy to Github](#deploy-to-github)
+    + [Accessing code](#accessing-code)
+- [&rarr; **Testing**](#-rarr----testing--)
+    + [Testing user stories](#testing-user-stories)
+    + [Validator checks](#validator-checks)
+    + [Responsive Design](#responsive-design)
+    + [Additional Testing](#additional-testing)
+    + [Bugs](#bugs)
+- [&rarr; **Credits**](#-rarr----credits--)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgements](#acknowledgements)
+- [&rarr; **Contact**](#-rarr----contact--)
 
 ---
 
@@ -111,9 +111,6 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 - **Model**
    - I will add model response to contact form when I have greater knowledge of Javascript language.
 
-- **Replace titles**
-  - Replace title tags with a nicer formatted pop up text box.
-
 #### Status
 
 > Project is: <u>ongoing</u>
@@ -134,10 +131,8 @@ I will update my project as I learn new software skills and embark on new ideas.
   - Google fonts were used to import the 'Montserrat' font into the style.css file which is used on all pages throughout the project.
 - [**Font Awesome 4.7.0**](https://fontawesome.com/)
   - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-- [**Hover.css 2.1.1:**](https://ianlunn.github.io/Hover/)
-    * Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 - [**jQuery:**](https://jquery.com/)
-  - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+  - jQuery came with Bootstrap to make the components used responsive.
   - Included at end of body tag within HTML files to ensure smooth running off HMTL and CSS.
 - [**Git**](https://git-scm.com/)
   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -293,7 +288,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 * [**HTML Validator**](https://validator.w3.org/nu/#textarea)
 
-
   One warning message received;
 
 > Warning: The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment.
@@ -303,7 +297,6 @@ Code not altered as hyphens have been used to help structure my html code. Six h
 * [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
   No error or warning messages received.
-
 
 #### Responsive Design
 
@@ -322,6 +315,7 @@ Code not altered as hyphens have been used to help structure my html code. Six h
 * Friends and family members were asked to review the site to point out any bugs, user experience issues and/or suggestions.
   * Feedback action:
     * Titles added to software skill icons so user has a quick summary of the meaning of each language/program.
+    * On footer, facebook link changed to Github as this is more favoured by my target audience.
 
 #### Bugs
 
@@ -329,7 +323,7 @@ Code not altered as hyphens have been used to help structure my html code. Six h
 ## &rarr; **Credits**
 #### Content
 
-- Bootstrap 4.7: Bootstrap Library used throughout the project, coponents used include the grid System, carousel, timeline and form templates.
+- Bootstrap 4.5: Bootstrap Library used throughout the project, coponents used include the grid System, carousel, timeline and form templates.
 
 - Code Institue:  Title text content for software skills taken from code institute 'Full Stack Development Prospectus'.
 #### Media
