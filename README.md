@@ -11,36 +11,36 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 ## <u>Table of contents</u>
 
-- [**User Experience (UX)**](#--user-experience--ux---)
+  - [&rarr; **User Experience (UX)**](#-rarr----user-experience--ux---)
     + [Purpose](#purpose)
     + [User stories](#user-stories)
     + [Design](#design)
     + [Wireframes](#wireframes)
-- [**Features**](#--features--)
+- [&rarr; **Features**](#-rarr----features--)
     + [Features used](#features-used)
     + [To-do list:](#to-do-list-)
     + [Status](#status)
-- [**Technologies**](#--technologies--)
+- [&rarr; **Technologies**](#-rarr----technologies--)
     + [Languages](#languages)
     + [Frameworks, Libraries & Programs](#frameworks--libraries---programs)
-- [**Deployment**](#--deployment--)
+- [&rarr; **Deployment**](#-rarr----deployment--)
     + [Deploy to Github](#deploy-to-github)
     + [Accessing code](#accessing-code)
-- [**Testing**](#--testing--)
+- [&rarr; **Testing**](#-rarr----testing--)
     + [Testing user stories](#testing-user-stories)
     + [Validator checks](#validator-checks)
     + [Responsive Design](#responsive-design)
     + [Additional Testing](#additional-testing)
-    + [Known Bugs](#known-bugs)
-- [**Credits**](#--credits--)
+    + [Known Bugs](#bugs)
+- [&rarr; **Credits**](#-rarr----credits--)
     + [Content](#content)
     + [Media](#media)
     + [Acknowledgements](#acknowledgements)
-- [**Contact**](#--contact--)
+- [&rarr; **Contact**](#-rarr----contact--)
 
 ---
 
-## **User Experience (UX)**
+## &rarr; **User Experience (UX)**
 
 #### Purpose
 
@@ -83,7 +83,7 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 [View PDF of wireframes](assets/pdf/wireframes.pdf)
 
 ---
-## **Features**
+## &rarr; **Features**
 
 #### Features used
 
@@ -118,7 +118,7 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 I will update my project as I learn new software skills and embark on new ideas. My personal details will also be continuously updated to ensure I've included the latest information.
 
 ---
-## **Technologies**
+## &rarr; **Technologies**
 
 #### Languages
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -151,7 +151,7 @@ I will update my project as I learn new software skills and embark on new ideas.
   - Used to format my HTML and CSS file with desired indentation level for optimal readability.
 ---
 
-## **Deployment**
+## &rarr; **Deployment**
 
 #### Deploy to Github
 
@@ -232,7 +232,7 @@ When you clone a repository, the repository is copied on to your local machine.
 
 ---
 
-## **Testing**
+## &rarr; **Testing**
 
 #### Testing user stories
  Testing my user's <u>key priorities</u>:
@@ -328,7 +328,7 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 
 - HTML logo was not loading on Apple devices and internet explorer but this has now been resolved through providing image from another source.
 
-## **Credits**
+## &rarr; **Credits**
 #### Content
 
 - Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the grid System, carousel, timeline and form templates.
@@ -347,7 +347,7 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 #### Acknowledgements
  - My Mentor for continuous help and support throughout the project.
 
-## **Contact**
+## &rarr; **Contact**
 Created by @lucyjpjones
 
 If you have any problems, questions or suggestions for my project please contact me on the email below:
