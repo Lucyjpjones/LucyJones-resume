@@ -53,10 +53,15 @@ The online resume will aim to give users proof of my ability and confidence in w
 The <u>key priorities</u> for my user are as follows:
 
 1. To be able to easily navigate throughout the site to find the desired content.
+
 2. Ability to access a hard copy of my CV.
-2. To view my portfolio of work.
-3. Ability to contact me.
+
+3. To view my portfolio of work.
+
+4. Ability to contact me.
+
 5. View my current skills & experience.
+
 6. Access links to my other external social accounts.
 
 #### Design
@@ -68,9 +73,7 @@ The <u>key priorities</u> for my user are as follows:
 
 - **Colour scheme**
   - A monochromatic colour scheme to keep the design looking clean and elegant.
-
   - Key colour is purple which is most frequently associated with creativity and imagination.
-
   - A white background used throughout the site to avoid any visual obstacles and helping add visual emphasis to other important parts of the design. I decided to use an off-white (#fafafa) as it is easier on the eyes.
 
 - **Typography**
@@ -89,19 +92,27 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 
 - **Responsive on all device sizes**
   - Responsive through using Bootstrap grid system and CSS media queries.
+
 - **Nav links**
   - A navigation menu to allow the user to easily access different pages of the site. There is also a nav icon link features on header map to allow the user to easily go back to the homepage from every page.
+
+- **Download link**
+  - A PDF download link to allow the user to access a hard copy of my CV. The file opens in a new tab to ensure websites presence is still maintained.
+
+- **Carousel**
+  - A carousel Bootstrap component used to showcase my projects.
+
 - **Form**
   - A contact form with submit button for users to easily get in touch via my website.
   - The form has been set up to ensure all fields are filled out and that email is written in the correct format.
 - **Timelines**
   - Education and work history presented in a timeline to provide a clear summary of my experience.
-- **Download link**
-  - A PDF download link to allow the user to access a hard copy of my CV. The file opens in a new tab to ensure websites presence is still maintained.
-- **External links to social platforms**
-  - Recognisable icons with links to my external social platforms.
+
 - **Progress bars**
   - Progress bars used to visually represent my personal skills.
+
+- **External links to social platforms**
+  - Recognisable icons with links to my external social platforms.
 
 #### To-do list:
 
@@ -125,28 +136,38 @@ I will update my project as I learn new software skills and embark on new ideas.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 #### Frameworks, Libraries & Programs
+
 - [**Bootstrap 4.5.0**](https://getbootstrap.com/)
     - Bootstrap was used to assist with the responsiveness and styling of the website using design templates.
+
 - [**Google fonts**](https://fonts.google.com/)
   - Google fonts were used to import the 'Montserrat' font into the style.css file which is used on all pages throughout the project.
 - [**Font Awesome 4.7.0**](https://fontawesome.com/)
   - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
 - [**jQuery:**](https://jquery.com/)
   - jQuery came with Bootstrap to make the components used responsive.
   - Included at end of body tag within HTML files to ensure smooth running off HMTL and CSS.
+
 - [**Git**](https://git-scm.com/)
   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
 - [**GitHub**](https://github.com/)
   - GitHub is used to store the project code after being pushed from Git.
   - GitHub Wiki TOC generator used to format README.md table of contents.
+
 - [**Paint 3D:**](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
   - Paint 3D was used to edit and create images for the website.
+
 - [**Snipping Tool:**](https://support.microsoft.com/en-gb/help/13776/windows-10-use-snipping-tool-to-capture-screenshots)
   - Snipping Tool was used for screenshots of my website.
+
 - [**Balsamiq**](https://balsamiq.com/)
   - Balsamiq was used to create the wireframes during the design process.
+
 - [**Grammarly**](https://www.grammarly.com/)
   - Grammarly was used to ensure any grammar errors are eliminated.
+
 - [**HTML Formatter**](https://www.freeformatter.com/html-formatter.html) and [**CSS Formatter**](https://www.freeformatter.com/css-beautifier.html)
   - Used to format my HTML and CSS file with desired indentation level for optimal readability.
 ---
