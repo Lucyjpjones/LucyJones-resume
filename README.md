@@ -32,7 +32,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
     + [Validator checks](#validator-checks)
     + [Responsive Design](#responsive-design)
     + [Additional Testing](#additional-testing)
-    + [Bugs](#bugs)
+    + [Known Bugs](#bugs)
 - [&rarr; **Credits**](#-rarr----credits--)
     + [Content](#content)
     + [Media](#media)
@@ -317,16 +317,16 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 
 - The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
 
-- The website was viewed on a variety of devices including Laptop, Macbook, Ipad and IPhone8.
+- The website was viewed on a variety of devices including Laptop, Macbook, Ipad and IPhones (Version 6,8).
 
 - Friends and family members were asked to review the site to point out any bugs, user experience issues and/or suggestions.
   - Feedback action:
     - Titles added to software skill icons so the user has a quick summary of the meaning of each language/program.
     - On the footer, Facebook link changed to Github as this is more favoured by my target audience.
 
-#### Bugs
+#### Known Bugs
 
-- On Iphone 8, HTML software logo isn't loading image.
+- On Apple devices (Macbook Pro, Iphone 8, Iphone 6), HTML software logo isn't loading correctly.
 
 ## &rarr; **Credits**
 #### Content

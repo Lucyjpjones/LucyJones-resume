@@ -262,6 +262,7 @@ footer {
 
 .progress {
   position: relative;
+  height: 16px;
   margin-bottom: 5px;
   margin-right: 10%;
   margin-left: 10%;
@@ -273,15 +274,14 @@ footer {
 
 .progress-type {
   position: absolute;
-  font-size: 8px;
+  left: 0px;
   font-weight: 400;
   padding: 3%;
   color: #f7f7f7;
-  background-color: rgba(25, 25, 25, 0.2);
-  top: -2px;
+  font-size: 8px;
   text-transform: none;
+  background-color: rgba(25, 25, 25, 0.2);
 }
-
 
 /*--Software Skills--*/
 
