@@ -323,10 +323,11 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
   - Feedback action:
     - Titles added to software skill icons so the user has a quick summary of the meaning of each language/program.
     - On the footer, Facebook link changed to Github as this is more favoured by my target audience.
+    - Email address on 'My story' page added as a link so users can easily send an email me.
 
 #### Known Bugs
 
-- On Apple devices (Macbook Pro, Iphone 8, Iphone 6), HTML software logo isn't loading correctly.
+- HTML logo was not loading on Apple devices and internet explorer but this has now been resolved through providing image from another source.
 
 ## &rarr; **Credits**
 #### Content

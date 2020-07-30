@@ -208,6 +208,10 @@ footer {
   color: rgba(87, 40, 90, 0.5);
 }
 
+#contact-details a {
+    color: #585858;
+}
+
 .title {
   font-size: 14px;
   margin-top: 5%;
