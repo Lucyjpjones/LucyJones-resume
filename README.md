@@ -11,24 +11,23 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 ---
 
 ## <u>Table of contents</u>
-- [![MyResume](assets/images/readme/homepage-ss.png)](#--myresume--assets-images-readme-homepage-sspng-)
-- [LucyJones - Resume](#lucyjones---resume)
-  * [&rarr; User Experience (UX)](#-rarr--user-experience--ux-)
+
+  * [**&rarr; User Experience (UX)**](#-rarr--user-experience--ux-)
       - [Purpose](#purpose)
       - [User stories](#user-stories)
       - [Design](#design)
       - [Wireframes](#wireframes)
-  * [&rarr; Features](#-rarr--features)
+  * [**&rarr; Features**](#-rarr--features)
       - [Features used](#features-used)
       - [To-do list:](#to-do-list-)
       - [Status](#status)
-  * [&rarr; Technologies](#-rarr--technologies)
+  * [**&rarr; Technologies**](#-rarr--technologies)
       - [Languages](#languages)
       - [Frameworks, Libraries & Programs](#frameworks--libraries---programs)
-  * [&rarr; Deployment](#-rarr--deployment)
+  * [**&rarr; Deployment**](#-rarr--deployment)
       - [Deploy to Github](#deploy-to-github)
       - [Accessing code](#accessing-code)
-  * [&rarr; Testing](#-rarr--testing)
+  * [**&rarr; Testing**](#-rarr--testing)
       - [Testing user stories](#testing-user-stories)
       - [Validator checks](#validator-checks)
       - [Responsive Design](#responsive-design)
@@ -40,12 +39,9 @@ This site was built using [GitHub Pages](https://pages.github.com/).
       - [Acknowledgements](#acknowledgements)
   * [&rarr; **Contact**](#-rarr----contact--)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 ---
 
-## &rarr; User Experience (UX)
+## &rarr; **User Experience (UX)**
 
 #### Purpose
 
@@ -73,12 +69,13 @@ The <u>key priorities</u> for my user are as follows:
 
 * **Color scheme**
   * Monochromatic colour scheme to keep the design looking clean and elegant.
+
   * Key colour is purple which is most frequently associated with creativity and imagination.
+
+  * White background used throughout site to avoid any visual obstacles and helping add visual emphasis to other important parts of the design. I decided to use an off-white (#fafafa) as it is easier on the eyes.
 
 * **Typography**
   * The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-
-  * White background used throughout site to avoid any visual obstacles and helping add visual emphasis to other important parts of the design. I decided to use an off-white (#fafafa) as it is easier on the eyes.
 
 #### Wireframes
 
@@ -87,7 +84,7 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 [View PDF of wireframes](assets/pdf/wireframes.pdf)
 
 ---
-## &rarr; Features
+## &rarr; **Features**
 
 #### Features used
 
@@ -124,7 +121,7 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 I will update my project as I learn new software skills and embark on new ideas. My personal details will also be continuously updated to ensure i've included the latest information.
 
 ---
-## &rarr; Technologies
+## &rarr; **Technologies**
 
 #### Languages
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -155,7 +152,7 @@ I will update my project as I learn new software skills and embark on new ideas.
 
 ---
 
-## &rarr; Deployment
+## &rarr; **Deployment**
 
 #### Deploy to Github
 
@@ -207,7 +204,7 @@ When you clone a repository, the repository is copied on to your local machine.
 
   3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 
-    ![Clone-link](assets/images/readme/clone-link.png)
+  ![Clone-link](assets/images/readme/clone-link.png)
 
   4. Open Git Bash
 
@@ -219,7 +216,8 @@ When you clone a repository, the repository is copied on to your local machine.
   ```
 
   7.	Press Enter. Your local clone will be created.
-    ```
+    
+  ```
   $ git clone https://github.com/YOUR-USERNAME/LucyJones-resume.git
 
   > Cloning into `LucyJones-resume`...
@@ -230,11 +228,12 @@ When you clone a repository, the repository is copied on to your local machine.
   > Recieving objects: 100% (299/299), 4.61MiB | 2.98 MiB/s, done.
   > Resolving deltas: 100% (145/145), done. Unpacking objects: 100% (10/10), done.
   ```
+
   Now, you have a local copy of your fork of the LucyJones-resume repository.
 
 ---
 
-## &rarr; Testing
+## &rarr; **Testing**
 
 #### Testing user stories
  Testing my users <u>key priorities</u>:
@@ -325,7 +324,7 @@ Code not altered as hyphens have been used to help structure my html code. Six h
     * Titles added to software skill icons so user has a quick summary of the meaning of each language/program.
 
 #### Bugs
-* Git logo not loading image
+
 
 ## &rarr; **Credits**
 #### Content
