@@ -387,6 +387,8 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 #### Acknowledgements
  - My Mentor for continuous help and support throughout the project.
 
+ - The [Code Institute](https://codeinstitute.net/) Slack Community.
+
 ## &rarr; **Contact**
 Created by @lucyjpjones
 
