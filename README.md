@@ -119,8 +119,9 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 - **Carousel multi items**
   - Make multiple slides visible on medium or larger devices (This layout is shown in my wireframes).
 
-- **Model**
-   - I will add a model response to contact form when I have a greater knowledge of Javascript language.
+- **Contact form**
+   - I will add to my html code to create a working form with the use of method and action attributes.
+   - I will add a model response for the user when the form has been submitted, when I have a greater knowledge of the Javascript language.
 
 #### Status
 
