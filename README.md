@@ -173,7 +173,11 @@ I will update my project as I learn new software skills and embark on new ideas.
   - Used to format my HTML and CSS file with desired indentation level for optimal readability.
 
 - [**Tables generator**](https://www.tablesgenerator.com/)
-- Used to format table for bugs in README file.
+  - Used to format table for bugs in README file.
+
+- [**Lighthouse**](https://web.dev/measure/?gclid=Cj0KCQjwgo_5BRDuARIsADDEntTbdar9AKbypFb3lEsXY3jzIfnwdjJpcqxGon--H32hKNb1Obh5dccaAkLVEALw_wcB)
+  - Used to check how well my website performs and get tips on improving my users experience.
+  
 ---
 
 ## &rarr; **Deployment**
@@ -351,6 +355,7 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
     - Titles added to software skill icons so the user has a quick summary of the meaning of each language/program.
     - On the footer, Facebook link changed to Github as this is more favoured by my target audience.
     - Email address on 'My story' page added as a link so users can easily send a direct email.
+    - Main images changed from PNG to WEBP to provide a faster download and less data consumption.
 
 #### Bugs
 
