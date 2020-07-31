@@ -171,6 +171,9 @@ I will update my project as I learn new software skills and embark on new ideas.
 
 - [**HTML Formatter**](https://www.freeformatter.com/html-formatter.html) and [**CSS Formatter**](https://www.freeformatter.com/css-beautifier.html)
   - Used to format my HTML and CSS file with desired indentation level for optimal readability.
+
+- [**Tables generator**](https://www.tablesgenerator.com/)
+- Used to format table for bugs in README file.
 ---
 
 ## &rarr; **Deployment**
