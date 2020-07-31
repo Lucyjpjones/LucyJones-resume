@@ -18,7 +18,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
     + [Wireframes](#wireframes)
 - [&rarr; **Features**](#-rarr----features--)
     + [Features used](#features-used)
-    + [To-do list:](#to-do-list-)
+    + [To-do list](#to-do-list-)
     + [Status](#status)
 - [&rarr; **Technologies**](#-rarr----technologies--)
     + [Languages](#languages)
