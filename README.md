@@ -358,7 +358,6 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 |-----------|------------------------------------------------------|--------------------------------------------------|
 | [x]       | HTML logo not loading on safari or internet explorer | Change icon so it is compatible on all programs  |
 | [ ]       | Sizing too small on IMac desktop                     | Create a new media query for screens over 1600px |
-|  
 
 
 ## &rarr; **Credits**
