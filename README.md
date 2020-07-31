@@ -1,5 +1,5 @@
 # ![MyResume](assets/images/readme/responsive-resume.png)
-<h1 align="center">LucyJones- Resume</h1>
+<h1 align="center">My resume</h1>
 
 My resume is a custom site built to present my skills, completed projects, education and previous work experience to potential employers and clients.
 
