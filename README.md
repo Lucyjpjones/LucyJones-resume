@@ -363,6 +363,7 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 |-----------|------------------------------------------------------|--------------------------------------------------|
 | [x]       | HTML logo not loading on safari or internet explorer | Change icon so it is compatible on all programs  |
 | [ ]       | Sizing too small on IMac desktop                     | Create a new media query for screens over 1600px |
+| [ ]       | Change image file format from PNG to WEBP to provide a faster download and less data consumption                     | Changed format but had to revert back as the images didn't load on apple devices |
 
 
 ## &rarr; **Credits**
