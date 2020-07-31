@@ -249,7 +249,10 @@ When you clone a repository, the repository is copied on to your local machine.
   > Resolving deltas: 100% (145/145), done. Unpacking objects: 100% (10/10), done.
   ```
 
-  Now, you have a local copy of your fork of the LucyJones-resume repository.
+Now, you have a local copy of your fork of the LucyJones-resume repository.
+
+> Note: The repository name and output numbers that you see on your computer, representing the total file size, etc, may differ from the example I have provided above.
+
 
 ---
 
@@ -343,11 +346,13 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
   - Feedback action:
     - Titles added to software skill icons so the user has a quick summary of the meaning of each language/program.
     - On the footer, Facebook link changed to Github as this is more favoured by my target audience.
-    - Email address on 'My story' page added as a link so users can easily send an email me.
+    - Email address on 'My story' page added as a link so users can easily send a direct email.
 
 #### Known Bugs
 
 - HTML logo was not loading on Apple devices and internet explorer but this has now been resolved through providing image from another source.
+
+- The font size is showing too small for MAC desktop users. I will look at adding a new media query for devices over 1600px to rectify this issue.
 
 ## &rarr; **Credits**
 #### Content
@@ -364,6 +369,8 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 - Inspiration for the London skyline image was taken from [Shutterstock](https://www.shutterstock.com/).
 
 - Software icon images were taken from [pixabay](https://pixabay.com/), [Needpix](https://www.needpix.com/) and [Wikimedia commons](https://commons.wikimedia.org/wiki/Main_Page).
+
+- The mockup image showing all devices on my README.md was created using [About Am I Responsive](http://ami.responsivedesign.is/)
 
 #### Acknowledgements
  - My Mentor for continuous help and support throughout the project.
