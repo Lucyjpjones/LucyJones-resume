@@ -120,8 +120,8 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
   - Make multiple slides visible on medium or larger devices (This layout is shown in my wireframes).
 
 - **Contact form**
-   - I will add to my html code to create a working form with the use of method and action attributes.
-   - I will add a model response for the user when the form has been submitted, when I have a greater knowledge of the Javascript language.
+   - I will add to my HTML code to create a working form with the use of method and action attributes.
+   - I will add a model response for the user when I have a greater knowledge of the Javascript language.
 
 #### Status
 
@@ -176,7 +176,7 @@ I will update my project as I learn new software skills and embark on new ideas.
   - Used to format table for bugs in README file.
 
 - [**Lighthouse**](https://web.dev/measure/?gclid=Cj0KCQjwgo_5BRDuARIsADDEntTbdar9AKbypFb3lEsXY3jzIfnwdjJpcqxGon--H32hKNb1Obh5dccaAkLVEALw_wcB)
-  - Used to check how well my website performs and get tips on improving my users experience.
+  - Used to check how well my website performs and get tips on improving my user's experience.
   
 ---
 
@@ -363,7 +363,7 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 |-----------|------------------------------------------------------|--------------------------------------------------|
 | [x]       | HTML logo not loading on safari or internet explorer | Change icon so it is compatible on all programs  |
 | [ ]       | Sizing too small on IMac desktop                     | Create a new media query for screens over 1600px |
-| [ ]       | Change image file format from PNG to WEBP to provide a faster download and less data consumption                     | Changed format but had to revert back as the images didn't load on apple devices |
+| [ ]       | Change image file format from PNG to WEBP to provide a faster download and less data consumption                     | Changed format but had to revert as the images didn't load on apple devices |
 
 
 ## &rarr; **Credits**
@@ -371,7 +371,7 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
 
 - Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the grid System, carousel, timeline and form templates.
 
-- Code Institue:  Title text content for software skills taken from code institute 'Full Stack Development Prospectus'.
+- Software skills title text content taken from [Code Institute's](https://codeinstitute.net/) 'Full Stack Development Prospectus' and [Wikipedia](https://en.wikipedia.org/wiki/Wik).
 
 - [W3schools.com](https://www.w3schools.com/): Helped with the code for overlaying text on an image and making my email address into a link.
 
