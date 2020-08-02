@@ -60,9 +60,9 @@ The <u>key priorities</u> for my user are as follows:
 
 4. Ability to contact me.
 
-5. View my current skills & experience.
+5. View my current skills and experience.
 
-6. Access links to my other external social accounts.
+6. Access links to my external social accounts.
 
 #### Design
 
@@ -94,7 +94,7 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
   - Responsive through using Bootstrap grid system and CSS media queries.
 
 - **Nav links**
-  - A navigation menu to allow the user to easily access different pages of the site. There is also a nav icon link features on header map to allow the user to easily go back to the homepage from every page.
+  - A navigation menu to allow the user to easily access different pages of the site. There is also a nav marker icon featured on the map image that allows the user to link back to the homepage from every page.
 
 - **Download link**
   - A PDF download link to allow the user to access a hard copy of my CV. The file opens in a new tab to ensure websites presence is still maintained.
@@ -104,7 +104,7 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
 
 - **Form**
   - A contact form with submit button for users to easily get in touch via my website.
-  - The form has been set up to ensure all fields are filled out and that email is written in the correct format.
+  - The form has been set up to ensure all fields are filled out and that the email is written in the correct format.
 - **Timelines**
   - Education and work history presented in a timeline to provide a clear summary of my experience.
 
@@ -290,7 +290,7 @@ Now, you have a local copy of your fork of the LucyJones-resume repository.
 - Carousel used to display projects and create user interaction with carousel indicators and control arrows.
 - Overlay text to provide project summary.
 - Button link to give user option to view the full project in another browser. 
-  -- Button for all projects is currently linked to my GitHub account.
+  - Projects 1-3 are linked to mini-projects created during the course walkthroughs, but project 4-5 are just dummy images linking to my GitHub account.
 
 ![My work carousel](assets/images/readme/US3.png)
 
@@ -309,14 +309,14 @@ Now, you have a local copy of your fork of the LucyJones-resume repository.
 
 - Contact details also accessible on the hard copy of cv.
 
-5. **View my current skills & experience**
+5. **View my current skills and experience**
 - 'My story' link on the menu bar to access a page with my current skills and experience.
 
 ![My story page](assets/images/readme/US5-mystory.png)
 
 - This can also be found on the hard copy of CV.
 
-6. **Access links to my other external social accounts**
+6. **Access links to my external social accounts**
 - At the bottom of each page, there is a footer which contains links to my social platforms which is consistent throughout all pages.
 ![Footer social links](assets/images/readme/US6-sociallinks.png)
 
@@ -355,7 +355,7 @@ Code not altered as hyphens have been used to help structure my HTML code. Six h
     - Titles added to software skill icons so the user has a quick summary of the meaning of each language/program.
     - On the footer, Facebook link changed to Github as this is more favoured by my target audience.
     - Email address on 'My story' page added as a link so users can easily send a direct email.
-    - Main images changed from PNG to WEBP to provide a faster download and less data consumption.
+- Project posted on Slack, asking for feedback from fellow students.
 
 #### Bugs
 
