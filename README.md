@@ -94,7 +94,7 @@ As part of the design process, before starting my project I used <u>Balsamiq</u>
   - Responsive through using Bootstrap grid system and CSS media queries.
 
 - **Nav links**
-  - A navigation menu to allow the user to easily access different pages of the site. There is also a nav marker icon featured on the map image that allows the user to link back to the homepage from every page.
+  - A navigation menu to allow the user to easily access different pages of the site. The map featured on every page allows the user to link back to the homepage from every page.
 
 - **Download link**
   - A PDF download link to allow the user to access a hard copy of my CV. The file opens in a new tab to ensure websites presence is still maintained.
